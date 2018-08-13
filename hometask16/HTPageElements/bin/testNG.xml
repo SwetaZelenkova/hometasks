@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Classes_For_Test">
+    <classes>
+      <class name="edu.pht.collections.testng.PageMethodsTest"/>
+      <class name="edu.pht.collections.testng.PageContainsButtonParamTest"/>
+      <class name="edu.pht.collections.testng.PageCompareLabelsParamTest"/>
+      <class name="edu.pht.collections.testng.PageAddAllLabelsParamTest"/>
+    </classes>
+  </test> 
+</suite> 
