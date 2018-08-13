@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="26" passed="25">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="380" started-at="2018-08-13T01:46:10Z" finished-at="2018-08-13T01:46:11Z">
+    <groups>
+      <group name="Difficult">
+        <method signature="PageAddAllLabelsParamTest.Page_AddAllLabels_Test([Ledu.pht.collections.entity.Label;, boolean)[pri:0, instance:edu.pht.collections.testng.PageAddAllLabelsParamTest@5c7fa833]" name="Page_AddAllLabels_Test" class="edu.pht.collections.testng.PageAddAllLabelsParamTest"/>
+        <method signature="PageCompareLabelsParamTest.Page_CompareLabels_Test(edu.pht.collections.entity.Label, edu.pht.collections.entity.Label, java.lang.Integer)[pri:0, instance:edu.pht.collections.testng.PageCompareLabelsParamTest@457e2f02]" name="Page_CompareLabels_Test" class="edu.pht.collections.testng.PageCompareLabelsParamTest"/>
+        <method signature="PageContainsButtonParamTest.Page_ContainsButton_Test(edu.pht.collections.entity.Button, boolean)[pri:0, instance:edu.pht.collections.testng.PageContainsButtonParamTest@724af044]" name="Page_ContainsButton_Test" class="edu.pht.collections.testng.PageContainsButtonParamTest"/>
+      </group> <!-- Difficult -->
+      <group name="Simple">
+        <method signature="PageContainsButtonParamTest.Page_ContainsButton_Test(edu.pht.collections.entity.Button, boolean)[pri:0, instance:edu.pht.collections.testng.PageContainsButtonParamTest@724af044]" name="Page_ContainsButton_Test" class="edu.pht.collections.testng.PageContainsButtonParamTest"/>
+        <method signature="PageMethodsTest.test_CompareLabels_Equals()[pri:0, instance:edu.pht.collections.testng.PageMethodsTest@39aeed2f]" name="test_CompareLabels_Equals" class="edu.pht.collections.testng.PageMethodsTest"/>
+        <method signature="PageMethodsTest.test_CompareLabels_Not_Equals()[pri:0, instance:edu.pht.collections.testng.PageMethodsTest@39aeed2f]" name="test_CompareLabels_Not_Equals" class="edu.pht.collections.testng.PageMethodsTest"/>
+      </group> <!-- Simple -->
+    </groups>
+    <test name="Classes_For_Test" duration-ms="380" started-at="2018-08-13T01:46:10Z" finished-at="2018-08-13T01:46:11Z">
+      <class name="edu.pht.collections.testng.PageAddAllLabelsParamTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:edu.pht.collections.testng.PageAddAllLabelsParamTest@5c7fa833]" name="beforeTest" is-config="true" duration-ms="29" started-at="2018-08-13T01:46:10Z" finished-at="2018-08-13T01:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:edu.pht.collections.testng.PageCompareLabelsParamTest@457e2f02]" name="beforeTest" is-config="true" duration-ms="4" started-at="2018-08-13T01:46:10Z" finished-at="2018-08-13T01:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:edu.pht.collections.testng.PageAddAllLabelsParamTest@5c7fa833]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-08-13T01:46:10Z" finished-at="2018-08-13T01:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Page_AddAllLabels_Test([Ledu.pht.collections.entity.Label;, boolean)[pri:0, instance:edu.pht.collections.testng.PageAddAllLabelsParamTest@5c7fa833]" name="Page_AddAllLabels_Test" duration-ms="3" started-at="2018-08-13T01:46:10Z" data-provider="dp" finished-at="2018-08-13T01:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ledu.pht.collections.entity.Label;@711f39f9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_AddAllLabels_Test -->
+        <test-method status="PASS" signature="Page_AddAllLabels_Test([Ledu.pht.collections.entity.Label;, boolean)[pri:0, instance:edu.pht.collections.testng.PageAddAllLabelsParamTest@5c7fa833]" name="Page_AddAllLabels_Test" duration-ms="2" started-at="2018-08-13T01:46:10Z" data-provider="dp" finished-at="2018-08-13T01:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ledu.pht.collections.entity.Label;@71bbf57e]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_AddAllLabels_Test -->
+        <test-method status="PASS" signature="Page_AddAllLabels_Test([Ledu.pht.collections.entity.Label;, boolean)[pri:0, instance:edu.pht.collections.testng.PageAddAllLabelsParamTest@5c7fa833]" name="Page_AddAllLabels_Test" duration-ms="2" started-at="2018-08-13T01:46:10Z" data-provider="dp" finished-at="2018-08-13T01:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ledu.pht.collections.entity.Label;@7f13d6e]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_AddAllLabels_Test -->
+        <test-method status="PASS" signature="Page_AddAllLabels_Test([Ledu.pht.collections.entity.Label;, boolean)[pri:0, instance:edu.pht.collections.testng.PageAddAllLabelsParamTest@5c7fa833]" name="Page_AddAllLabels_Test" duration-ms="2" started-at="2018-08-13T01:46:10Z" data-provider="dp" finished-at="2018-08-13T01:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ledu.pht.collections.entity.Label;@51cdd8a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_AddAllLabels_Test -->
+        <test-method status="PASS" signature="Page_AddAllLabels_Test([Ledu.pht.collections.entity.Label;, boolean)[pri:0, instance:edu.pht.collections.testng.PageAddAllLabelsParamTest@5c7fa833]" name="Page_AddAllLabels_Test" duration-ms="2" started-at="2018-08-13T01:46:11Z" data-provider="dp" finished-at="2018-08-13T01:46:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ledu.pht.collections.entity.Label;@d44fc21]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_AddAllLabels_Test -->
+        <test-method status="PASS" signature="Page_AddAllLabels_Test([Ledu.pht.collections.entity.Label;, boolean)[pri:0, instance:edu.pht.collections.testng.PageAddAllLabelsParamTest@5c7fa833]" name="Page_AddAllLabels_Test" duration-ms="2" started-at="2018-08-13T01:46:11Z" data-provider="dp" finished-at="2018-08-13T01:46:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ledu.pht.collections.entity.Label;@23faf8f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_AddAllLabels_Test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:edu.pht.collections.testng.PageAddAllLabelsParamTest@5c7fa833]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-08-13T01:46:11Z" finished-at="2018-08-13T01:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:edu.pht.collections.testng.PageAddAllLabelsParamTest@5c7fa833]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-13T01:46:11Z" finished-at="2018-08-13T01:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:edu.pht.collections.testng.PageCompareLabelsParamTest@457e2f02]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-08-13T01:46:11Z" finished-at="2018-08-13T01:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- edu.pht.collections.testng.PageAddAllLabelsParamTest -->
+      <class name="edu.pht.collections.testng.PageCompareLabelsParamTest">
+        <test-method status="PASS" signature="Page_CompareLabels_Test(edu.pht.collections.entity.Label, edu.pht.collections.entity.Label, java.lang.Integer)[pri:0, instance:edu.pht.collections.testng.PageCompareLabelsParamTest@457e2f02]" name="Page_CompareLabels_Test" duration-ms="11" started-at="2018-08-13T01:46:10Z" data-provider="dp" finished-at="2018-08-13T01:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Label | name = Name | 
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Label | name = Name | 
+]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_CompareLabels_Test -->
+        <test-method status="PASS" signature="Page_CompareLabels_Test(edu.pht.collections.entity.Label, edu.pht.collections.entity.Label, java.lang.Integer)[pri:0, instance:edu.pht.collections.testng.PageCompareLabelsParamTest@457e2f02]" name="Page_CompareLabels_Test" duration-ms="1" started-at="2018-08-13T01:46:10Z" data-provider="dp" finished-at="2018-08-13T01:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Label | name = 7 | 
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Label | name = 7 | 
+]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_CompareLabels_Test -->
+        <test-method status="PASS" signature="Page_CompareLabels_Test(edu.pht.collections.entity.Label, edu.pht.collections.entity.Label, java.lang.Integer)[pri:0, instance:edu.pht.collections.testng.PageCompareLabelsParamTest@457e2f02]" name="Page_CompareLabels_Test" duration-ms="10" started-at="2018-08-13T01:46:10Z" data-provider="dp" finished-at="2018-08-13T01:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Label | name = 9 | 
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Label | name = 1 | 
+]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_CompareLabels_Test -->
+        <test-method status="PASS" signature="Page_CompareLabels_Test(edu.pht.collections.entity.Label, edu.pht.collections.entity.Label, java.lang.Integer)[pri:0, instance:edu.pht.collections.testng.PageCompareLabelsParamTest@457e2f02]" name="Page_CompareLabels_Test" duration-ms="4" started-at="2018-08-13T01:46:10Z" data-provider="dp" finished-at="2018-08-13T01:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Label | name = Address | 
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Label | name = Password | 
+]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_CompareLabels_Test -->
+        <test-method status="PASS" signature="Page_CompareLabels_Test(edu.pht.collections.entity.Label, edu.pht.collections.entity.Label, java.lang.Integer)[pri:0, instance:edu.pht.collections.testng.PageCompareLabelsParamTest@457e2f02]" name="Page_CompareLabels_Test" duration-ms="2" started-at="2018-08-13T01:46:10Z" data-provider="dp" finished-at="2018-08-13T01:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Label | name = Prof | 
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Label | name = Price | 
+]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_CompareLabels_Test -->
+        <test-method status="PASS" signature="Page_CompareLabels_Test(edu.pht.collections.entity.Label, edu.pht.collections.entity.Label, java.lang.Integer)[pri:0, instance:edu.pht.collections.testng.PageCompareLabelsParamTest@457e2f02]" name="Page_CompareLabels_Test" duration-ms="6" started-at="2018-08-13T01:46:10Z" data-provider="dp" finished-at="2018-08-13T01:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Label | name = Name | 
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Label | name = Surname | 
+]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_CompareLabels_Test -->
+        <test-method status="PASS" signature="Page_CompareLabels_Test(edu.pht.collections.entity.Label, edu.pht.collections.entity.Label, java.lang.Integer)[pri:0, instance:edu.pht.collections.testng.PageCompareLabelsParamTest@457e2f02]" name="Page_CompareLabels_Test" duration-ms="4" started-at="2018-08-13T01:46:10Z" data-provider="dp" finished-at="2018-08-13T01:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Label | name = Age | 
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Label | name = Age | 
+]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_CompareLabels_Test -->
+        <test-method status="PASS" signature="Page_CompareLabels_Test(edu.pht.collections.entity.Label, edu.pht.collections.entity.Label, java.lang.Integer)[pri:0, instance:edu.pht.collections.testng.PageCompareLabelsParamTest@457e2f02]" name="Page_CompareLabels_Test" duration-ms="2" started-at="2018-08-13T01:46:10Z" data-provider="dp" finished-at="2018-08-13T01:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Label | name = Company | 
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Label | name = Factory | 
+]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_CompareLabels_Test -->
+        <test-method status="PASS" signature="Page_CompareLabels_Test(edu.pht.collections.entity.Label, edu.pht.collections.entity.Label, java.lang.Integer)[pri:0, instance:edu.pht.collections.testng.PageCompareLabelsParamTest@457e2f02]" name="Page_CompareLabels_Test" duration-ms="4" started-at="2018-08-13T01:46:10Z" data-provider="dp" finished-at="2018-08-13T01:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Label | name = Factory | 
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Label | name = Company | 
+]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_CompareLabels_Test -->
+        <test-method status="PASS" signature="Page_CompareLabels_Test(edu.pht.collections.entity.Label, edu.pht.collections.entity.Label, java.lang.Integer)[pri:0, instance:edu.pht.collections.testng.PageCompareLabelsParamTest@457e2f02]" name="Page_CompareLabels_Test" duration-ms="1" started-at="2018-08-13T01:46:10Z" data-provider="dp" finished-at="2018-08-13T01:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Label | name =  | 
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Label | name =  | 
+]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_CompareLabels_Test -->
+        <test-method status="PASS" signature="Page_CompareLabels_Test(edu.pht.collections.entity.Label, edu.pht.collections.entity.Label, java.lang.Integer)[pri:0, instance:edu.pht.collections.testng.PageCompareLabelsParamTest@457e2f02]" name="Page_CompareLabels_Test" duration-ms="1" started-at="2018-08-13T01:46:10Z" data-provider="dp" finished-at="2018-08-13T01:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Label | name = gender | 
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Label | name = gender | 
+]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_CompareLabels_Test -->
+      </class> <!-- edu.pht.collections.testng.PageCompareLabelsParamTest -->
+      <class name="edu.pht.collections.testng.PageMethodsTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:edu.pht.collections.testng.PageMethodsTest@39aeed2f]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-08-13T01:46:10Z" finished-at="2018-08-13T01:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test_CompareLabels_Equals()[pri:0, instance:edu.pht.collections.testng.PageMethodsTest@39aeed2f]" name="test_CompareLabels_Equals" duration-ms="42" started-at="2018-08-13T01:46:10Z" finished-at="2018-08-13T01:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_CompareLabels_Equals -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:edu.pht.collections.testng.PageMethodsTest@39aeed2f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-08-13T01:46:10Z" finished-at="2018-08-13T01:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:edu.pht.collections.testng.PageMethodsTest@39aeed2f]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-08-13T01:46:10Z" finished-at="2018-08-13T01:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test_CompareLabels_Not_Equals()[pri:0, instance:edu.pht.collections.testng.PageMethodsTest@39aeed2f]" name="test_CompareLabels_Not_Equals" duration-ms="4" started-at="2018-08-13T01:46:10Z" finished-at="2018-08-13T01:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_CompareLabels_Not_Equals -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:edu.pht.collections.testng.PageMethodsTest@39aeed2f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-08-13T01:46:10Z" finished-at="2018-08-13T01:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- edu.pht.collections.testng.PageMethodsTest -->
+      <class name="edu.pht.collections.testng.PageContainsButtonParamTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:edu.pht.collections.testng.PageContainsButtonParamTest@724af044]" name="beforeClass" is-config="true" duration-ms="1" started-at="2018-08-13T01:46:10Z" finished-at="2018-08-13T01:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Page_ContainsButton_Test(edu.pht.collections.entity.Button, boolean)[pri:0, instance:edu.pht.collections.testng.PageContainsButtonParamTest@724af044]" name="Page_ContainsButton_Test" duration-ms="4" started-at="2018-08-13T01:46:10Z" data-provider="dp" finished-at="2018-08-13T01:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Button | name = save, action = save to disk | 
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_ContainsButton_Test -->
+        <test-method status="PASS" signature="Page_ContainsButton_Test(edu.pht.collections.entity.Button, boolean)[pri:0, instance:edu.pht.collections.testng.PageContainsButtonParamTest@724af044]" name="Page_ContainsButton_Test" duration-ms="2" started-at="2018-08-13T01:46:10Z" data-provider="dp" finished-at="2018-08-13T01:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Button | name = write, action = write to file | 
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_ContainsButton_Test -->
+        <test-method status="PASS" signature="Page_ContainsButton_Test(edu.pht.collections.entity.Button, boolean)[pri:0, instance:edu.pht.collections.testng.PageContainsButtonParamTest@724af044]" name="Page_ContainsButton_Test" duration-ms="2" started-at="2018-08-13T01:46:10Z" data-provider="dp" finished-at="2018-08-13T01:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Button | name = delete, action = delete from disk | 
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_ContainsButton_Test -->
+        <test-method status="PASS" signature="Page_ContainsButton_Test(edu.pht.collections.entity.Button, boolean)[pri:0, instance:edu.pht.collections.testng.PageContainsButtonParamTest@724af044]" name="Page_ContainsButton_Test" duration-ms="12" started-at="2018-08-13T01:46:10Z" data-provider="dp" finished-at="2018-08-13T01:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Button | name = cancel, action = clean all fields | 
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_ContainsButton_Test -->
+        <test-method status="PASS" signature="Page_ContainsButton_Test(edu.pht.collections.entity.Button, boolean)[pri:0, instance:edu.pht.collections.testng.PageContainsButtonParamTest@724af044]" name="Page_ContainsButton_Test" duration-ms="1" started-at="2018-08-13T01:46:10Z" data-provider="dp" finished-at="2018-08-13T01:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Button | name = password, action = enter pass | 
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_ContainsButton_Test -->
+        <test-method status="PASS" signature="Page_ContainsButton_Test(edu.pht.collections.entity.Button, boolean)[pri:0, instance:edu.pht.collections.testng.PageContainsButtonParamTest@724af044]" name="Page_ContainsButton_Test" duration-ms="2" started-at="2018-08-13T01:46:10Z" data-provider="dp" finished-at="2018-08-13T01:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Button | name = print, action = print page | 
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_ContainsButton_Test -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:edu.pht.collections.testng.PageContainsButtonParamTest@724af044]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-13T01:46:10Z" finished-at="2018-08-13T01:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- edu.pht.collections.testng.PageContainsButtonParamTest -->
+    </test> <!-- Classes_For_Test -->
+  </suite> <!-- Suite -->
+</testng-results>

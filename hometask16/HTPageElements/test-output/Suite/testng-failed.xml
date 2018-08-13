@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Packages_For_Test(failed)">
+    <groups>
+      <run>
+        <include name="All"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="edu.pht.collections.testng.PageMethodsTest">
+        <methods>
+          <include name="test_CompareLabels_Not_Equals"/>
+          <include name="test_CompareLabels_Equals"/>
+        </methods>
+      </class> <!-- edu.pht.collections.testng.PageMethodsTest -->
+      <class name="edu.pht.collections.testng.PageContainsButtonParamTest">
+        <methods>
+          <include name="Page_ContainsButton_Test" invocation-numbers="0 1 2 3 4 5"/>
+        </methods>
+      </class> <!-- edu.pht.collections.testng.PageContainsButtonParamTest -->
+      <class name="edu.pht.collections.testng.PageAddAllLabelsParamTest">
+        <methods>
+          <include name="Page_AddAllLabels_Test" invocation-numbers="0 1 2 3 4 5"/>
+        </methods>
+      </class> <!-- edu.pht.collections.testng.PageAddAllLabelsParamTest -->
+      <class name="edu.pht.collections.testng.PageCompareLabelsParamTest">
+        <methods>
+          <include name="Page_CompareLabels_Test" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10"/>
+        </methods>
+      </class> <!-- edu.pht.collections.testng.PageCompareLabelsParamTest -->
+    </classes>
+  </test> <!-- Packages_For_Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
