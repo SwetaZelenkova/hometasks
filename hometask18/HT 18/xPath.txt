@@ -1,0 +1,16 @@
+1) Мой мир       //a[@id='ph_my']/span
+2) Все проекты   //a[@id='PH_projectsMenu_button']/i[2]
+3) Картинки      //div[@id='search__categories']/a[2]
+4) Лупа          //form[@id='search']/label[1]
+5) Найти         //input[@id='search:submit']
+6) Календарик    //span[@id='cal']
+7) Леди          //div[@id="grid:middle"]/div[2]/div[2]/div[1]/a[4]
+8) ...           НЕ ЗНАЮ
+9) Имя ящика     //input[@id="mailbox:login"]
+10)Запомнить     //input[@id="mailbox:saveauth"]
+11)img ICQ       //div[@id="projects"]/a[1]/img - вся область - ссылка //div[@id="projects"]/a[1]
+12)Спорт         //div[@id="grid:middle"]/div[2]/div[2]/div[2]/div[1]/div[9]/div/a[1]
+13)Клуб          //div[@id="grid:middle"]/div[2]/div[2]/div[4]/div - весь контейнер, сод. и картинку и текст
+14)Агент         //div[@id="grid"]/div[3]/div[1]/div                
+15)Курс$ с дельтой//div[@id="grid:middle"]/div[2]/div[2]/div[5]/div[3]/a[1]
+16)Включить ленту//a[@id="footer:feed-switch"]

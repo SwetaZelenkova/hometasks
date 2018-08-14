@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">SuiteWithGroups</th></tr>
+<tr><td><a href="#t0">testWorkWithGroups</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num">248</td><td></td><td>functest</td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SuiteWithGroups</th></tr></tbody><tbody id="t0"><tr><th colspan="4">testWorkWithGroups &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">edu.pht.collections.entity.PageMethodsWithExceptionTest</td><td><a href="#m0">test_GetElementsDropdown_Exception</a></td><td rowspan="1">1534208646711</td><td rowspan="1">10</td></tr><tr class="passedeven"><td><a href="#m1">test_GetElementsDropdown_Message_Exception</a></td><td rowspan="1">1534208646740</td><td rowspan="1">7</td></tr><tr class="passedeven"><td><a href="#m2">test_GetFirstField_Exception</a></td><td rowspan="1">1534208646755</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m3">test_GetFirstField_Message_Exception</a></td><td rowspan="1">1534208646761</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m4">test_GetLastField_Exception</a></td><td rowspan="1">1534208646766</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m5">test_GetLastField_Message_Exception</a></td><td rowspan="1">1534208646782</td><td rowspan="1">6</td></tr><tr class="passedeven"><td><a href="#m6">test_In_Exception</a></td><td rowspan="1">1534208646797</td><td rowspan="1">30</td></tr><tr class="passedeven"><td><a href="#m7">test_In_Message_Exception</a></td><td rowspan="1">1534208646830</td><td rowspan="1">1</td></tr></tbody>
+</table>
+<h2>testWorkWithGroups</h2><h3 id="m0">edu.pht.collections.entity.PageMethodsWithExceptionTest#test_GetElementsDropdown_Exception</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace"> NoSuchEntityException [resume=to store the order of the elements use list, getDetail()=the saved third can not be found for set]
+	at edu.pht.collections.entity.Page.getElementsDropdown(Page.java:115)
+	at edu.pht.collections.entity.PageMethodsWithExceptionTest.test_GetElementsDropdown_Exception(PageMethodsWithExceptionTest.java:104)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">edu.pht.collections.entity.PageMethodsWithExceptionTest#test_GetElementsDropdown_Message_Exception</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">edu.pht.collections.entity.PageMethodsWithExceptionTest#test_GetFirstField_Exception</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace"> NoSuchEntityException [resume=list of fields is empty, getDetail()=field element not found]
+	at edu.pht.collections.entity.Page.getFirstField(Page.java:83)
+	at edu.pht.collections.entity.PageMethodsWithExceptionTest.test_GetFirstField_Exception(PageMethodsWithExceptionTest.java:44)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">edu.pht.collections.entity.PageMethodsWithExceptionTest#test_GetFirstField_Message_Exception</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">edu.pht.collections.entity.PageMethodsWithExceptionTest#test_GetLastField_Exception</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace"> NoSuchEntityException [resume=list of fields is empty, getDetail()=field element not found]
+	at edu.pht.collections.entity.Page.getLastField(Page.java:90)
+	at edu.pht.collections.entity.PageMethodsWithExceptionTest.test_GetLastField_Exception(PageMethodsWithExceptionTest.java:69)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">edu.pht.collections.entity.PageMethodsWithExceptionTest#test_GetLastField_Message_Exception</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">edu.pht.collections.entity.PageMethodsWithExceptionTest#test_In_Exception</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace"> InvalidActionException [resume=this is a unvailable action, getDetail()=collection element must extends class Dropdown]
+	at edu.pht.collections.entity.Page.in(Page.java:102)
+	at edu.pht.collections.entity.PageMethodsWithExceptionTest.test_In_Exception(PageMethodsWithExceptionTest.java:87)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">edu.pht.collections.entity.PageMethodsWithExceptionTest#test_In_Message_Exception</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
