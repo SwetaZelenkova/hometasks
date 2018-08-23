@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="79886" started-at="2018-08-22T13:51:01Z" finished-at="2018-08-22T13:52:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="79886" started-at="2018-08-22T13:51:01Z" finished-at="2018-08-22T13:52:21Z">
+      <class name="edu.pht.pageclasses.CleanRecycleBinTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:edu.pht.pageclasses.CleanRecycleBinTest@55f3ddb1]" name="beforeClass" is-config="true" duration-ms="40916" started-at="2018-08-22T13:51:01Z" finished-at="2018-08-22T13:51:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="clean_Recycle_Bin_Test()[pri:0, instance:edu.pht.pageclasses.CleanRecycleBinTest@55f3ddb1]" name="clean_Recycle_Bin_Test" duration-ms="37228" started-at="2018-08-22T13:51:42Z" finished-at="2018-08-22T13:52:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean_Recycle_Bin_Test -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:edu.pht.pageclasses.CleanRecycleBinTest@55f3ddb1]" name="afterClass" is-config="true" duration-ms="1560" started-at="2018-08-22T13:52:19Z" finished-at="2018-08-22T13:52:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- edu.pht.pageclasses.CleanRecycleBinTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

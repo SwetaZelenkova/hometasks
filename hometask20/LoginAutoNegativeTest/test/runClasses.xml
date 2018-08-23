@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<classes>
+			<class name="edu.pht.pageclasses.CreateMailTest" />
+			<class name="edu.pht.pageclasses.DeleteMailTest" />
+			<class name="edu.pht.pageclasses.AreIconsPresentTest" />
+			<class name="edu.pht.pageclasses.SendMailToGroupReciversTest" />
+			<class name="edu.pht.pageclasses.CleanRecycleBinTest" />
+			<class name="edu.pht.pageclasses.RelocationInSpamTest" />
+			<class name="edu.pht.pageclasses.SelectThreeEmailsTest" />
+			<class name="edu.pht.pageclasses.UnmarkAllFlagsTest" />
+			<class name="edu.pht.pageclasses.RelocationOutSpamTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
