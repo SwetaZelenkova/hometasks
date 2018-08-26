@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="edu.pht.pageclasses.CleanRecycleBinTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="clean_Recycle_Bin_Test"/>
+        </methods>
+      </class> <!-- edu.pht.pageclasses.CleanRecycleBinTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
