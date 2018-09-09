@@ -1,0 +1,113 @@
+{
+  "uid" : "f664b1280baee222",
+  "name" : "invalid login test",
+  "title" : "invalid login test",
+  "time" : {
+    "start" : 1536241507939,
+    "stop" : 1536241520216,
+    "duration" : 12277
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "d9d0948e834a8702",
+    "name" : "login page functionality",
+    "title" : "Login page functionality"
+  },
+  "steps" : [ {
+    "name" : "Given I am on main application page",
+    "title" : "Given I am on main application page",
+    "time" : {
+      "start" : 1536241513605,
+      "stop" : 1536241516132,
+      "duration" : 2527
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I login as user with \"zelenkova-sveta\" and \"@bk.ru\" and \"Benzz2503\"",
+    "title" : "When I login as user with \"zelenkova-sveta\" and \"@bk.ru\" and \"Benzz2503\"",
+    "time" : {
+      "start" : 1536241516150,
+      "stop" : 1536241517994,
+      "duration" : 1844
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "48ea885b-b064-4404-a7c6-1ff725644678-attachment.png",
+      "type" : "image/png",
+      "size" : 270285,
+      "uid" : "85f3c608ccfe816a"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I see error message",
+    "title" : "Then I see error message",
+    "time" : {
+      "start" : 1536241517995,
+      "stop" : 1536241518496,
+      "duration" : 501
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Attachment Screenshot",
+    "source" : "f00bb185-e86f-4b03-95e8-0d2ab7e56c98-attachment.png",
+    "type" : "image/png",
+    "size" : 204176,
+    "uid" : "5ca70f2270cbc7c5"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "2032@MASHEEN-8QD614O.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "MASHEEN-8QD614O"
+  }, {
+    "name" : "feature",
+    "value" : "login page functionality"
+  }, {
+    "name" : "suite-name",
+    "value" : "login page functionality"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "invalid login test"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

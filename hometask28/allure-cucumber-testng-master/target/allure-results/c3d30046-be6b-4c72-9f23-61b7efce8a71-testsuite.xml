@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1536230748379" stop="1536230775521" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>testing the removal of a letter</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1536230748382" stop="1536230775519" status="passed">
+            <name>mail deleting test</name>
+            <title>mail deleting test</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1536230754510" stop="1536230756958" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536230756958" stop="1536230759662" status="passed">
+                    <name>When I login as correct user</name>
+                    <title>When I login as correct user</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="e5671d37-dbf3-40c6-b03c-f8d118ab63c0-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536230759662" stop="1536230772361" status="passed">
+                    <name>And I choose the first letter</name>
+                    <title>And I choose the first letter</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="e8fc821a-e776-4d12-a157-b024dfab87c4-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536230772362" stop="1536230772691" status="passed">
+                    <name>And I click on the button delete</name>
+                    <title>And I click on the button delete</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536230772694" stop="1536230773766" status="passed">
+                    <name>Then I see message Your email has been deleted</name>
+                    <title>Then I see message Your email has been deleted</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Attachment Screenshot" source="13ee1865-80dd-44c9-9133-e4208d244a33-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="mail deleting test"/>
+                <label name="feature" value="testing the removal of a letter"/>
+                <label name="host" value="MASHEEN-8QD614O"/>
+                <label name="thread" value="3824@MASHEEN-8QD614O.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="testing the removal of a letter"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

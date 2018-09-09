@@ -1,0 +1,7 @@
+edu\pht\cucumberjunit\pages\Driver.class
+edu\pht\cucumberjunit\pages\SpamPage.class
+edu\pht\cucumberjunit\pages\AbstractPage.class
+edu\pht\cucumberjunit\pages\CreateEmailPage.class
+edu\pht\cucumberjunit\pages\LoginPage.class
+edu\pht\cucumberjunit\pages\RecycleBinPage.class
+edu\pht\cucumberjunit\pages\EmailPage.class

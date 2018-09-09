@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1536230806588" stop="1536230870488" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>login page functionality</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1536230806591" stop="1536230829156" status="broken">
+            <name>valid login test</name>
+            <title>valid login test</title>
+            <description type="text"></description>
+            <failure>
+                <message>StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9.80 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MASHEEN-8QD614O', ip: '192.168.1.205', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55807}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\836D~1\AppData\Local\Temp\scoped_dir3536_22021}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 26d97ce4617ed9d067d1c81a7bb4cb72</message>
+                <stack-trace>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9.80 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MASHEEN-8QD614O', ip: '192.168.1.205', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55807}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\836D~1\AppData\Local\Temp\scoped_dir3536_22021}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 26d97ce4617ed9d067d1c81a7bb4cb72
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:368)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at edu.pht.cucumberjunit.pages.AbstractPage.waitUntilElementIsVisibility(AbstractPage.java:35)
+	at edu.pht.cucumberjunit.pages.EmailPage.isLogoutLinkPresents(EmailPage.java:160)
+	at edu.pht.cucumberjunit.steps.EmailPageSteps.seeLogoutLink(EmailPageSteps.java:136)
+	at ✽.Then I see logout link(Login.feature:27)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1536230812536" stop="1536230814691" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                </step>
+                <step start="1536230814691" stop="1536230817243" status="passed">
+                    <name>When I login as correct user</name>
+                    <title>When I login as correct user</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="e538169b-c009-4bde-aa93-ca7ea7030df7-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1536230817243" stop="1536230827224" status="broken">
+                    <name>Then I see logout link</name>
+                    <title>Then I see logout link</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Attachment Screenshot" source="61b301d6-b80f-4acf-95bf-740110c05e3b-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="valid login test"/>
+                <label name="feature" value="login page functionality"/>
+                <label name="host" value="MASHEEN-8QD614O"/>
+                <label name="thread" value="3824@MASHEEN-8QD614O.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1536230829158" stop="1536230840577" status="passed">
+            <name>invalid login test</name>
+            <title>invalid login test</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1536230834028" stop="1536230835993" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536230835995" stop="1536230838214" status="passed">
+                    <name>When I login as user with "zelenkova-sveta" and "@bk.ru" and "Benzz2503"</name>
+                    <title>When I login as user with "zelenkova-sveta" and "@bk.ru" and "Benzz2503"</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="021c60a5-6e22-406c-9237-5035cb2ce4f7-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536230838214" stop="1536230838914" status="passed">
+                    <name>Then I see error message</name>
+                    <title>Then I see error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Attachment Screenshot" source="230cf2ee-7dc9-4cff-bc6d-8459aa402e49-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="invalid login test"/>
+                <label name="feature" value="login page functionality"/>
+                <label name="host" value="MASHEEN-8QD614O"/>
+                <label name="thread" value="3824@MASHEEN-8QD614O.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1536230840582" stop="1536230870487" status="broken">
+            <name>invalid login test</name>
+            <title>invalid login test</title>
+            <description type="text"></description>
+            <failure>
+                <message>WebDriverException: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.77 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MASHEEN-8QD614O', ip: '192.168.1.205', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55965}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\836D~1\AppData\Local\Temp\scoped_dir4624_8469}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f7d78eba4f5d94f06af237d4b097618f
+*** Element info: {Using=xpath, value=//*[@id='mailbox:error']}</message>
+                <stack-trace>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.77 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MASHEEN-8QD614O', ip: '192.168.1.205', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55965}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\836D~1\AppData\Local\Temp\scoped_dir4624_8469}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f7d78eba4f5d94f06af237d4b097618f
+*** Element info: {Using=xpath, value=//*[@id='mailbox:error']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.getText(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions$12.apply(ExpectedConditions.java:341)
+	at org.openqa.selenium.support.ui.ExpectedConditions$12.apply(ExpectedConditions.java:337)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at edu.pht.cucumberjunit.pages.AbstractPage.waitUntilDisplayedTextInElement(AbstractPage.java:31)
+	at edu.pht.cucumberjunit.pages.LoginPage.isMessageErrorPresents(LoginPage.java:56)
+	at edu.pht.cucumberjunit.steps.LoginSteps.seeErrorMessage(LoginSteps.java:61)
+	at ✽.Then I see error message(Login.feature:31)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1536230843163" stop="1536230846141" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                </step>
+                <step start="1536230846141" stop="1536230848122" status="passed">
+                    <name>When I login as user with "zelenkova_sveta" and "@bk.ru" and "Benz2503"</name>
+                    <title>When I login as user with "zelenkova_sveta" and "@bk.ru" and "Benz2503"</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="61b2e3bf-eab2-459e-832c-f5f961e503bb-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1536230848123" stop="1536230866470" status="broken">
+                    <name>Then I see error message</name>
+                    <title>Then I see error message</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="invalid login test"/>
+                <label name="feature" value="login page functionality"/>
+                <label name="host" value="MASHEEN-8QD614O"/>
+                <label name="thread" value="3824@MASHEEN-8QD614O.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="login page functionality"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

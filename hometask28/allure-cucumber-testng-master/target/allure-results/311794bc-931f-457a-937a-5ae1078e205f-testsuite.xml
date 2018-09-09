@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1536230298851" stop="1536230348949" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>login page functionality</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1536230298859" stop="1536230324385" status="passed">
+            <name>valid login test</name>
+            <title>valid login test</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1536230305751" stop="1536230308482" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536230308493" stop="1536230311290" status="passed">
+                    <name>When I login as correct user</name>
+                    <title>When I login as correct user</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="ca484e23-83db-4e17-95e6-97cc0aa8ee51-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536230311290" stop="1536230322734" status="passed">
+                    <name>Then I see logout link</name>
+                    <title>Then I see logout link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Attachment Screenshot" source="38ab2b7e-fb82-4c5a-bed2-f97c5efa76e6-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="valid login test"/>
+                <label name="feature" value="login page functionality"/>
+                <label name="host" value="MASHEEN-8QD614O"/>
+                <label name="thread" value="732@MASHEEN-8QD614O.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1536230324390" stop="1536230337975" status="passed">
+            <name>invalid login test</name>
+            <title>invalid login test</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1536230330369" stop="1536230332968" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536230332972" stop="1536230335563" status="passed">
+                    <name>When I login as user with "zelenkova-sveta" and "@bk.ru" and "Benzz2503"</name>
+                    <title>When I login as user with "zelenkova-sveta" and "@bk.ru" and "Benzz2503"</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="309b4924-eb11-4835-8bdc-40b792f6be2e-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536230335563" stop="1536230336081" status="passed">
+                    <name>Then I see error message</name>
+                    <title>Then I see error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Attachment Screenshot" source="3e4f9e84-9d67-4a93-8c50-b78cc74ea30f-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="invalid login test"/>
+                <label name="feature" value="login page functionality"/>
+                <label name="host" value="MASHEEN-8QD614O"/>
+                <label name="thread" value="732@MASHEEN-8QD614O.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1536230337978" stop="1536230348948" status="passed">
+            <name>invalid login test</name>
+            <title>invalid login test</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1536230342006" stop="1536230345045" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536230345045" stop="1536230346939" status="passed">
+                    <name>When I login as user with "zelenkova_sveta" and "@bk.ru" and "Benz2503"</name>
+                    <title>When I login as user with "zelenkova_sveta" and "@bk.ru" and "Benz2503"</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="7b75d27b-f74c-4036-8bb0-35bcacc4c791-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536230346940" stop="1536230347095" status="passed">
+                    <name>Then I see error message</name>
+                    <title>Then I see error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Attachment Screenshot" source="11bbaf5e-d257-4f60-ad68-98f2cfd7d2ba-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="invalid login test"/>
+                <label name="feature" value="login page functionality"/>
+                <label name="host" value="MASHEEN-8QD614O"/>
+                <label name="thread" value="732@MASHEEN-8QD614O.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="login page functionality"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

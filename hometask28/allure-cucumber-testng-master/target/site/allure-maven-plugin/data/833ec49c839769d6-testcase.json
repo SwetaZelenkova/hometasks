@@ -1,0 +1,227 @@
+{
+  "uid" : "833ec49c839769d6",
+  "name" : "a letter for the group of people",
+  "title" : "a letter for the group of people",
+  "time" : {
+    "start" : 1536237901140,
+    "stop" : 1536237938428,
+    "duration" : 37288
+  },
+  "summary" : {
+    "attachments" : 6,
+    "steps" : 9
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "fae5fd856a021c19",
+    "name" : "testing the creation of a letter for the group of people",
+    "title" : "Testing the creation of a letter for the group of people"
+  },
+  "steps" : [ {
+    "name" : "Given I am on main application page",
+    "title" : "Given I am on main application page",
+    "time" : {
+      "start" : 1536237907090,
+      "stop" : 1536237909571,
+      "duration" : 2481
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I login as correct user",
+    "title" : "When I login as correct user",
+    "time" : {
+      "start" : 1536237909571,
+      "stop" : 1536237912063,
+      "duration" : 2492
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "ccba1d5a-64c7-4c39-9967-14559f74127c-attachment.png",
+      "type" : "image/png",
+      "size" : 333443,
+      "uid" : "64ecc63fe79d8d5a"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click on the button create mail",
+    "title" : "And I click on the button create mail",
+    "time" : {
+      "start" : 1536237912063,
+      "stop" : 1536237924477,
+      "duration" : 12414
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I enter the recipients email address",
+    "title" : "And I enter the recipients email address",
+    "time" : {
+      "start" : 1536237924478,
+      "stop" : 1536237927680,
+      "duration" : 3202
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "90f90c37-b7ff-430e-8721-d01fb652c229-attachment.png",
+      "type" : "image/png",
+      "size" : 102776,
+      "uid" : "4ffde9250b3ed012"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I enter more recipients email addresses \"lana_zelenkova@tut.by\", \"nika.benz@tut.by\"",
+    "title" : "And I enter more recipients email addresses \"lana_zelenkova@tut.by\", \"nika.benz@tut.by\"",
+    "time" : {
+      "start" : 1536237927681,
+      "stop" : 1536237931392,
+      "duration" : 3711
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "ed7e2475-75ff-40f6-b608-7051a60b560e-attachment.png",
+      "type" : "image/png",
+      "size" : 103315,
+      "uid" : "404c7a4092308cc"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I enter the subject of the email",
+    "title" : "And I enter the subject of the email",
+    "time" : {
+      "start" : 1536237931392,
+      "stop" : 1536237932743,
+      "duration" : 1351
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "ae268049-7bbf-4efa-88f7-a0c81dc4c2b6-attachment.png",
+      "type" : "image/png",
+      "size" : 103979,
+      "uid" : "cb182090c7bf0311"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I enter the body of the email",
+    "title" : "And I enter the body of the email",
+    "time" : {
+      "start" : 1536237932744,
+      "stop" : 1536237934529,
+      "duration" : 1785
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "98b8421c-d11d-4dce-9c27-712412ac8e09-attachment.png",
+      "type" : "image/png",
+      "size" : 107215,
+      "uid" : "73fc88449422ae20"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click on the button send mail",
+    "title" : "And I click on the button send mail",
+    "time" : {
+      "start" : 1536237934530,
+      "stop" : 1536237935186,
+      "duration" : 656
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I see message Your letter has been sent",
+    "title" : "Then I see message Your letter has been sent",
+    "time" : {
+      "start" : 1536237935187,
+      "stop" : 1536237936550,
+      "duration" : 1363
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Attachment Screenshot",
+    "source" : "b320aacf-5dc8-4746-bc2c-8850992ddc30-attachment.png",
+    "type" : "image/png",
+    "size" : 205265,
+    "uid" : "bdd9278a8fe4369c"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "testing the creation of a letter for the group of people"
+  }, {
+    "name" : "thread",
+    "value" : "4020@MASHEEN-8QD614O.main(1)"
+  }, {
+    "name" : "host",
+    "value" : "MASHEEN-8QD614O"
+  }, {
+    "name" : "story",
+    "value" : "a letter for the group of people"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "suite-name",
+    "value" : "testing the creation of a letter for the group of people"
+  } ],
+  "parameters" : [ ]
+}

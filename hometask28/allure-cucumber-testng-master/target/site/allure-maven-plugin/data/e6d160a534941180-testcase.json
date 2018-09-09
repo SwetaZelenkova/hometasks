@@ -1,0 +1,113 @@
+{
+  "uid" : "e6d160a534941180",
+  "name" : "valid login test",
+  "title" : "valid login test",
+  "time" : {
+    "start" : 1536230298859,
+    "stop" : 1536230324385,
+    "duration" : 25526
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "ef7cff524209df36",
+    "name" : "login page functionality",
+    "title" : "Login page functionality"
+  },
+  "steps" : [ {
+    "name" : "Given I am on main application page",
+    "title" : "Given I am on main application page",
+    "time" : {
+      "start" : 1536230305751,
+      "stop" : 1536230308482,
+      "duration" : 2731
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I login as correct user",
+    "title" : "When I login as correct user",
+    "time" : {
+      "start" : 1536230308493,
+      "stop" : 1536230311290,
+      "duration" : 2797
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "ca484e23-83db-4e17-95e6-97cc0aa8ee51-attachment.png",
+      "type" : "image/png",
+      "size" : 344955,
+      "uid" : "1b6f87dae4eeea21"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I see logout link",
+    "title" : "Then I see logout link",
+    "time" : {
+      "start" : 1536230311290,
+      "stop" : 1536230322734,
+      "duration" : 11444
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Attachment Screenshot",
+    "source" : "38ab2b7e-fb82-4c5a-bed2-f97c5efa76e6-attachment.png",
+    "type" : "image/png",
+    "size" : 78667,
+    "uid" : "4be72b742ab5363"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "valid login test"
+  }, {
+    "name" : "host",
+    "value" : "MASHEEN-8QD614O"
+  }, {
+    "name" : "feature",
+    "value" : "login page functionality"
+  }, {
+    "name" : "suite-name",
+    "value" : "login page functionality"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "732@MASHEEN-8QD614O.main(1)"
+  } ],
+  "parameters" : [ ]
+}

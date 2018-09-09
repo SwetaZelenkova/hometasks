@@ -1,0 +1,170 @@
+{
+  "uid" : "621a5f5ffeac1e66",
+  "name" : "Move email to spam",
+  "title" : "Move email to spam",
+  "time" : {
+    "start" : 1536230373802,
+    "stop" : 1536230399589,
+    "duration" : 25787
+  },
+  "summary" : {
+    "attachments" : 4,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "eef4e676d1572ba5",
+    "name" : "Move email to spam",
+    "title" : "Move email to spam"
+  },
+  "steps" : [ {
+    "name" : "Given I am on main application page",
+    "title" : "Given I am on main application page",
+    "time" : {
+      "start" : 1536230379166,
+      "stop" : 1536230381604,
+      "duration" : 2438
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I login as correct user",
+    "title" : "When I login as correct user",
+    "time" : {
+      "start" : 1536230381604,
+      "stop" : 1536230384110,
+      "duration" : 2506
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "d184046d-f1d9-450f-8b04-ccaae69217f8-attachment.png",
+      "type" : "image/png",
+      "size" : 353096,
+      "uid" : "204bc97280400441"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I choose the first letter",
+    "title" : "And I choose the first letter",
+    "time" : {
+      "start" : 1536230384116,
+      "stop" : 1536230395610,
+      "duration" : 11494
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "b7e6dd22-55b7-4ed8-91c0-937b1542aa55-attachment.png",
+      "type" : "image/png",
+      "size" : 93678,
+      "uid" : "7a7dca8d067e1ed"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click on the button move to",
+    "title" : "And I click on the button move to",
+    "time" : {
+      "start" : 1536230395611,
+      "stop" : 1536230396206,
+      "duration" : 595
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click on the link spam",
+    "title" : "And I click on the link spam",
+    "time" : {
+      "start" : 1536230396206,
+      "stop" : 1536230397462,
+      "duration" : 1256
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "538b0407-e768-40d1-8633-ead6cb3fd18e-attachment.png",
+      "type" : "image/png",
+      "size" : 91393,
+      "uid" : "6de5eeb9014c3115"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I see message Your email has been moved to spam",
+    "title" : "Then I see message Your email has been moved to spam",
+    "time" : {
+      "start" : 1536230397462,
+      "stop" : 1536230397656,
+      "duration" : 194
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Attachment Screenshot",
+    "source" : "f04ed667-11c6-4b12-a3c5-ceac143dded1-attachment.png",
+    "type" : "image/png",
+    "size" : 94216,
+    "uid" : "8839044de9ac1048"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Move email to spam"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "MASHEEN-8QD614O"
+  }, {
+    "name" : "suite-name",
+    "value" : "Move email to spam"
+  }, {
+    "name" : "story",
+    "value" : "Move email to spam"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "732@MASHEEN-8QD614O.main(1)"
+  } ],
+  "parameters" : [ ]
+}

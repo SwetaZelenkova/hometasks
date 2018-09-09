@@ -1,0 +1,149 @@
+{
+  "uid" : "c417d4a775fc124",
+  "name" : "mail deleting test",
+  "title" : "mail deleting test",
+  "time" : {
+    "start" : 1536230247434,
+    "stop" : 1536230272735,
+    "duration" : 25301
+  },
+  "summary" : {
+    "attachments" : 3,
+    "steps" : 5
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "6b9a167b63cce5bf",
+    "name" : "testing the removal of a letter",
+    "title" : "Testing the removal of a letter"
+  },
+  "steps" : [ {
+    "name" : "Given I am on main application page",
+    "title" : "Given I am on main application page",
+    "time" : {
+      "start" : 1536230252952,
+      "stop" : 1536230255426,
+      "duration" : 2474
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I login as correct user",
+    "title" : "When I login as correct user",
+    "time" : {
+      "start" : 1536230255427,
+      "stop" : 1536230257959,
+      "duration" : 2532
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "31345b6c-e37d-4b34-8b86-441fe3669efa-attachment.png",
+      "type" : "image/png",
+      "size" : 327841,
+      "uid" : "2b86dc5cad8d38e2"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I choose the first letter",
+    "title" : "And I choose the first letter",
+    "time" : {
+      "start" : 1536230257959,
+      "stop" : 1536230270373,
+      "duration" : 12414
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "8426c32e-345f-4faa-a0a6-a74069deeb8b-attachment.png",
+      "type" : "image/png",
+      "size" : 82994,
+      "uid" : "d3323f949f64b002"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click on the button delete",
+    "title" : "And I click on the button delete",
+    "time" : {
+      "start" : 1536230270374,
+      "stop" : 1536230270758,
+      "duration" : 384
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I see message Your email has been deleted",
+    "title" : "Then I see message Your email has been deleted",
+    "time" : {
+      "start" : 1536230270758,
+      "stop" : 1536230271117,
+      "duration" : 359
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Attachment Screenshot",
+    "source" : "97e79d99-c34b-4739-bdb9-986bbc2bb3de-attachment.png",
+    "type" : "image/png",
+    "size" : 83184,
+    "uid" : "e5a892e33bb44ddb"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "testing the removal of a letter"
+  }, {
+    "name" : "host",
+    "value" : "MASHEEN-8QD614O"
+  }, {
+    "name" : "suite-name",
+    "value" : "testing the removal of a letter"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "mail deleting test"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "732@MASHEEN-8QD614O.main(1)"
+  } ],
+  "parameters" : [ ]
+}

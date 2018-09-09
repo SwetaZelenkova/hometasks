@@ -1,0 +1,158 @@
+{
+  "uid" : "e678bf710077519f",
+  "name" : "Move email from spam",
+  "title" : "Move email from spam",
+  "time" : {
+    "start" : 1536230349079,
+    "stop" : 1536230373693,
+    "duration" : 24614
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "535112503911eb6d",
+    "name" : "Move email from spam",
+    "title" : "Move email from spam"
+  },
+  "steps" : [ {
+    "name" : "Given I am on main application page",
+    "title" : "Given I am on main application page",
+    "time" : {
+      "start" : 1536230352126,
+      "stop" : 1536230355135,
+      "duration" : 3009
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I login as correct user",
+    "title" : "When I login as correct user",
+    "time" : {
+      "start" : 1536230355136,
+      "stop" : 1536230357580,
+      "duration" : 2444
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "514a3230-e3b4-40a0-a666-d5237e86a7f9-attachment.png",
+      "type" : "image/png",
+      "size" : 336515,
+      "uid" : "9f6e5972e7301e35"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click on the link to spam folder",
+    "title" : "And I click on the link to spam folder",
+    "time" : {
+      "start" : 1536230357580,
+      "stop" : 1536230368816,
+      "duration" : 11236
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I choose the first email in spam folder",
+    "title" : "And I choose the first email in spam folder",
+    "time" : {
+      "start" : 1536230368816,
+      "stop" : 1536230370244,
+      "duration" : 1428
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click on the button not spam",
+    "title" : "And I click on the button not spam",
+    "time" : {
+      "start" : 1536230370245,
+      "stop" : 1536230370503,
+      "duration" : 258
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I see message Your email has been moved from spam",
+    "title" : "Then I see message Your email has been moved from spam",
+    "time" : {
+      "start" : 1536230370503,
+      "stop" : 1536230371462,
+      "duration" : 959
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Attachment Screenshot",
+    "source" : "0a304d8b-6b26-49d4-ac9d-31f39f7d7458-attachment.png",
+    "type" : "image/png",
+    "size" : 152975,
+    "uid" : "41080f8f9056efa4"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "MASHEEN-8QD614O"
+  }, {
+    "name" : "feature",
+    "value" : "Move email from spam"
+  }, {
+    "name" : "suite-name",
+    "value" : "Move email from spam"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "Move email from spam"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "732@MASHEEN-8QD614O.main(1)"
+  } ],
+  "parameters" : [ ]
+}

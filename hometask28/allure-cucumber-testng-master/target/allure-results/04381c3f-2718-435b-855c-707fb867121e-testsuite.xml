@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1536230650199" stop="1536230672947" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Icons are present and displayed on the page</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1536230650354" stop="1536230672938" status="passed">
+            <name>Icons are present and displayed on the page</name>
+            <title>Icons are present and displayed on the page</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1536230664207" stop="1536230667665" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536230667665" stop="1536230668413" status="passed">
+                    <name>When The icons are present in the DOM and are displayed on the page</name>
+                    <title>When The icons are present in the DOM and are displayed on the page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536230668414" stop="1536230669320" status="passed">
+                    <name>Then I see all icons</name>
+                    <title>Then I see all icons</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Attachment Screenshot" source="e1f3a23d-c2ab-4b18-acf1-952a1d0d5599-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Icons are present and displayed on the page"/>
+                <label name="feature" value="Icons are present and displayed on the page"/>
+                <label name="host" value="MASHEEN-8QD614O"/>
+                <label name="thread" value="3824@MASHEEN-8QD614O.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Icons are present and displayed on the page"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

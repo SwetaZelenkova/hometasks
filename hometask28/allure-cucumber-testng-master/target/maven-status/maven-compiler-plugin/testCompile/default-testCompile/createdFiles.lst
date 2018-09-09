@@ -1,0 +1,6 @@
+edu\pht\cucumberjunit\steps\SpamSteps.class
+edu\pht\cucumberjunit\steps\CucumberJvmTest.class
+edu\pht\cucumberjunit\steps\LoginSteps.class
+edu\pht\cucumberjunit\steps\RecycleBinSteps.class
+edu\pht\cucumberjunit\steps\CreateEmailSteps.class
+edu\pht\cucumberjunit\steps\EmailPageSteps.class

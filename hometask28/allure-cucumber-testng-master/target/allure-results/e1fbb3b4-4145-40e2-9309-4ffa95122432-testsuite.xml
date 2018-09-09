@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1536237570690" stop="1536237608053" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>recycle bin functionality</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1536237570698" stop="1536237608051" status="passed">
+            <name>recycle bin cleaning test</name>
+            <title>recycle bin cleaning test</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1536237577822" stop="1536237584438" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536237584438" stop="1536237587779" status="passed">
+                    <name>When I login as correct user</name>
+                    <title>When I login as correct user</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="aa033c27-5e2f-45fc-9585-8ee1a47a65b2-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536237587779" stop="1536237603001" status="passed">
+                    <name>And I click on the link recycle bin</name>
+                    <title>And I click on the link recycle bin</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536237603002" stop="1536237604553" status="passed">
+                    <name>And I click on the button clean all</name>
+                    <title>And I click on the button clean all</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="10a8a8d1-f16e-4e54-9d9b-02e3e71cf59f-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536237604554" stop="1536237605017" status="passed">
+                    <name>And I click on the button for confirm</name>
+                    <title>And I click on the button for confirm</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536237605017" stop="1536237606050" status="passed">
+                    <name>Then I see message your recycle bin is empty</name>
+                    <title>Then I see message your recycle bin is empty</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Attachment Screenshot" source="588518b3-b3b5-4d4e-ba0e-9ea7ad4c0e6b-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="recycle bin cleaning test"/>
+                <label name="feature" value="recycle bin functionality"/>
+                <label name="host" value="MASHEEN-8QD614O"/>
+                <label name="thread" value="4020@MASHEEN-8QD614O.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="recycle bin functionality"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

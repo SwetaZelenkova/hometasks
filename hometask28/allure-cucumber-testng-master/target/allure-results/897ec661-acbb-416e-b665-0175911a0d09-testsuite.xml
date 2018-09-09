@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1536241658361" stop="1536241683422" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Move email to spam</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1536241658413" stop="1536241683421" status="passed">
+            <name>Move email to spam</name>
+            <title>Move email to spam</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1536241664479" stop="1536241666916" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536241666917" stop="1536241668867" status="passed">
+                    <name>When I login as correct user</name>
+                    <title>When I login as correct user</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="e76d513e-e6f2-47a7-b6fa-b42be1bdc60a-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536241668869" stop="1536241679827" status="passed">
+                    <name>And I choose the first letter</name>
+                    <title>And I choose the first letter</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="b54e8d7a-fd83-4c83-9310-cd88a9a80efb-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536241679828" stop="1536241680253" status="passed">
+                    <name>And I click on the button move to</name>
+                    <title>And I click on the button move to</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536241680254" stop="1536241681386" status="passed">
+                    <name>And I click on the link spam</name>
+                    <title>And I click on the link spam</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="747f1e94-e3c9-46e8-9f93-fd6ae10fa013-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536241681386" stop="1536241681618" status="passed">
+                    <name>Then I see message Your email has been moved to spam</name>
+                    <title>Then I see message Your email has been moved to spam</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Attachment Screenshot" source="ab8a05a7-b5c0-4297-8ecb-a4e6cd736a01-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Move email to spam"/>
+                <label name="feature" value="Move email to spam"/>
+                <label name="host" value="MASHEEN-8QD614O"/>
+                <label name="thread" value="2032@MASHEEN-8QD614O.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Move email to spam"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
