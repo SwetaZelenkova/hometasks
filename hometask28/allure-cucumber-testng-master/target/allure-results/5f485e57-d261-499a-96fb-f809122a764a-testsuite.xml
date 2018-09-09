@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1536271569599" stop="1536271637644" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Testing the creation of a letter for the group of people with data from DB</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1536271569732" stop="1536271637632" status="passed">
+            <name>Create email for the group of people with data from DB</name>
+            <title>Create email for the group of people with data from DB</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1536271584020" stop="1536271590145" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536271590146" stop="1536271594065" status="passed">
+                    <name>When I login as correct user</name>
+                    <title>When I login as correct user</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="30ed5591-0a77-4b48-9293-0beca96013ae-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536271594065" stop="1536271614819" status="passed">
+                    <name>And I click on the button create mail</name>
+                    <title>And I click on the button create mail</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536271614823" stop="1536271627827" status="passed">
+                    <name>And I enter the recipients email address, more addresses as copyTo, subject of the email, body of the email with 1 from DB</name>
+                    <title>And I enter the recipients email address, more addresses as copyTo, subject of the email, body of the email with 1 from DB</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536271627828" stop="1536271628234" status="passed">
+                    <name>And I click on the button send mail</name>
+                    <title>And I click on the button send mail</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536271628235" stop="1536271630544" status="passed">
+                    <name>Then I see message Your letter has been sent</name>
+                    <title>Then I see message Your letter has been sent</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Attachment Screenshot" source="d696f1ec-7223-4211-bdcb-5e000043c260-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Create email for the group of people with data from DB"/>
+                <label name="feature" value="Testing the creation of a letter for the group of people with data from DB"/>
+                <label name="host" value="MASHEEN-8QD614O"/>
+                <label name="thread" value="4184@MASHEEN-8QD614O.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Testing the creation of a letter for the group of people with data from DB"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

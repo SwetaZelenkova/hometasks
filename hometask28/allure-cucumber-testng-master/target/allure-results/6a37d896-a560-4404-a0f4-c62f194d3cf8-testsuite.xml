@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1536270583538" stop="1536270710164" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Testing the creation of a letter for the group of people with data from DB</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1536270583710" stop="1536270710129" status="broken">
+            <name>Create email for the group of people with data from DB</name>
+            <title>Create email for the group of people with data from DB</title>
+            <description type="text"></description>
+            <failure>
+                <message>NullPointerException: null</message>
+                <stack-trace>java.lang.NullPointerException
+	at edu.pht.cucumberjunit.utils.EmailWithDataFromDBBuilder.init(EmailWithDataFromDBBuilder.java:27)
+	at edu.pht.cucumberjunit.steps.CreateEmailSteps.enterFullEmailsInfoFromDB(CreateEmailSteps.java:63)
+	at ✽.And I enter the recipients email address, more addresses as copyTo, subject of the email, body of the email with 1 from DB(features/featureFiles/CreateEmailWithDataFromDB.feature:26)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1536270646845" stop="1536270661821" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                </step>
+                <step start="1536270661822" stop="1536270667716" status="passed">
+                    <name>When I login as correct user</name>
+                    <title>When I login as correct user</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="08b91f1f-d2ed-467f-8c93-b84416061b27-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1536270667716" stop="1536270699755" status="passed">
+                    <name>And I click on the button create mail</name>
+                    <title>And I click on the button create mail</title>
+                </step>
+                <step start="1536270699758" stop="1536270700150" status="broken">
+                    <name>And I enter the recipients email address, more addresses as copyTo, subject of the email, body of the email with 1 from DB</name>
+                    <title>And I enter the recipients email address, more addresses as copyTo, subject of the email, body of the email with 1 from DB</title>
+                </step>
+                <step start="1536270700150" stop="1536270700154" status="canceled">
+                    <name>And I click on the button send mail</name>
+                    <title>And I click on the button send mail</title>
+                </step>
+                <step start="1536270700154" stop="1536270700154" status="canceled">
+                    <name>Then I see message Your letter has been sent</name>
+                    <title>Then I see message Your letter has been sent</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Attachment Screenshot" source="acb8cc1f-98ea-44eb-ad0b-5726a5cc1f4c-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Create email for the group of people with data from DB"/>
+                <label name="feature" value="Testing the creation of a letter for the group of people with data from DB"/>
+                <label name="host" value="MASHEEN-8QD614O"/>
+                <label name="thread" value="2172@MASHEEN-8QD614O.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Testing the creation of a letter for the group of people with data from DB"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

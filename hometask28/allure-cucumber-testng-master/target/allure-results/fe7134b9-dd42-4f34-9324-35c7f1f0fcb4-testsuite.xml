@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1536237901094" stop="1536237938429" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>testing the creation of a letter for the group of people</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1536237901140" stop="1536237938428" status="passed">
+            <name>a letter for the group of people</name>
+            <title>a letter for the group of people</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1536237907090" stop="1536237909571" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536237909571" stop="1536237912063" status="passed">
+                    <name>When I login as correct user</name>
+                    <title>When I login as correct user</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="ccba1d5a-64c7-4c39-9967-14559f74127c-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536237912063" stop="1536237924477" status="passed">
+                    <name>And I click on the button create mail</name>
+                    <title>And I click on the button create mail</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536237924478" stop="1536237927680" status="passed">
+                    <name>And I enter the recipients email address</name>
+                    <title>And I enter the recipients email address</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="90f90c37-b7ff-430e-8721-d01fb652c229-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536237927681" stop="1536237931392" status="passed">
+                    <name>And I enter more recipients email addresses "lana_zelenkova@tut.by", "nika.benz@tut.by"</name>
+                    <title>And I enter more recipients email addresses "lana_zelenkova@tut.by", "nika.benz@tut.by"</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="ed7e2475-75ff-40f6-b608-7051a60b560e-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536237931392" stop="1536237932743" status="passed">
+                    <name>And I enter the subject of the email</name>
+                    <title>And I enter the subject of the email</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="ae268049-7bbf-4efa-88f7-a0c81dc4c2b6-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536237932744" stop="1536237934529" status="passed">
+                    <name>And I enter the body of the email</name>
+                    <title>And I enter the body of the email</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="98b8421c-d11d-4dce-9c27-712412ac8e09-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536237934530" stop="1536237935186" status="passed">
+                    <name>And I click on the button send mail</name>
+                    <title>And I click on the button send mail</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536237935187" stop="1536237936550" status="passed">
+                    <name>Then I see message Your letter has been sent</name>
+                    <title>Then I see message Your letter has been sent</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Attachment Screenshot" source="b320aacf-5dc8-4746-bc2c-8850992ddc30-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="a letter for the group of people"/>
+                <label name="feature" value="testing the creation of a letter for the group of people"/>
+                <label name="host" value="MASHEEN-8QD614O"/>
+                <label name="thread" value="4020@MASHEEN-8QD614O.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="testing the creation of a letter for the group of people"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1536230709193" stop="1536230748229" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>testing the creation of a letter</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1536230709196" stop="1536230748228" status="passed">
+            <name>testing the creation of a new letter</name>
+            <title>testing the creation of a new letter</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1536230716761" stop="1536230720208" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536230720212" stop="1536230722707" status="passed">
+                    <name>When I login as correct user</name>
+                    <title>When I login as correct user</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="0c5cdeb2-e6e0-43e5-98e6-6163c84b0a09-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536230722708" stop="1536230736889" status="passed">
+                    <name>And I click on the button create mail</name>
+                    <title>And I click on the button create mail</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536230736890" stop="1536230740445" status="passed">
+                    <name>And I enter the recipients email address</name>
+                    <title>And I enter the recipients email address</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="6011cfd8-279f-4161-a3ed-e8766a5118b9-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536230740447" stop="1536230741683" status="passed">
+                    <name>And I enter the subject of the email</name>
+                    <title>And I enter the subject of the email</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="cb0c3a4c-1097-4852-8faa-ca2d820dcb05-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536230741683" stop="1536230743679" status="passed">
+                    <name>And I enter the body of the email</name>
+                    <title>And I enter the body of the email</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="2996146e-7ec1-4259-81a6-2b2125384efc-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536230743681" stop="1536230744245" status="passed">
+                    <name>And I click on the button send mail</name>
+                    <title>And I click on the button send mail</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536230744246" stop="1536230746315" status="passed">
+                    <name>Then I see message Your letter has been sent</name>
+                    <title>Then I see message Your letter has been sent</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Attachment Screenshot" source="cc1a7832-d5cb-4f54-af6d-0a645fc264bb-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="testing the creation of a new letter"/>
+                <label name="feature" value="testing the creation of a letter"/>
+                <label name="host" value="MASHEEN-8QD614O"/>
+                <label name="thread" value="3824@MASHEEN-8QD614O.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="testing the creation of a letter"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

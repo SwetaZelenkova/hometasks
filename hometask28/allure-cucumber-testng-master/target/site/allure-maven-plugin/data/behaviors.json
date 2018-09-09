@@ -1,0 +1,773 @@
+{
+  "features" : [ {
+    "title" : "Icons are present and displayed on the page",
+    "statistic" : {
+      "total" : 4,
+      "passed" : 4,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "2c22aca2dbe57230",
+      "title" : "Icons are present and displayed on the page",
+      "statistic" : {
+        "total" : 4,
+        "passed" : 4,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "9e0eaf9dceff3b3e",
+        "name" : "Icons are present and displayed on the page",
+        "title" : "Icons are present and displayed on the page",
+        "time" : {
+          "start" : 1536230650354,
+          "stop" : 1536230672938,
+          "duration" : 22584
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b6b04f6d2da931d8",
+        "name" : "Icons are present and displayed on the page",
+        "title" : "Icons are present and displayed on the page",
+        "time" : {
+          "start" : 1536241218743,
+          "stop" : 1536241306149,
+          "duration" : 87406
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2d0f757411e732ee",
+        "name" : "Icons are present and displayed on the page",
+        "title" : "Icons are present and displayed on the page",
+        "time" : {
+          "start" : 1536237519439,
+          "stop" : 1536237569741,
+          "duration" : 50302
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "743c95a9c01547ff",
+        "name" : "Icons are present and displayed on the page",
+        "title" : "Icons are present and displayed on the page",
+        "time" : {
+          "start" : 1536230099578,
+          "stop" : 1536230155301,
+          "duration" : 55723
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  }, {
+    "title" : "testing the creation of a letter",
+    "statistic" : {
+      "total" : 4,
+      "passed" : 4,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "5f387efbd8ee1579",
+      "title" : "testing the creation of a new letter",
+      "statistic" : {
+        "total" : 4,
+        "passed" : 4,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "6fca3ab0f8b2c76b",
+        "name" : "testing the creation of a new letter",
+        "title" : "testing the creation of a new letter",
+        "time" : {
+          "start" : 1536230709196,
+          "stop" : 1536230748228,
+          "duration" : 39032
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "73a16576a8afadb4",
+        "name" : "testing the creation of a new letter",
+        "title" : "testing the creation of a new letter",
+        "time" : {
+          "start" : 1536230211675,
+          "stop" : 1536230247247,
+          "duration" : 35572
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "42e787f263a90133",
+        "name" : "testing the creation of a new letter",
+        "title" : "testing the creation of a new letter",
+        "time" : {
+          "start" : 1536237608366,
+          "stop" : 1536237642565,
+          "duration" : 34199
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b36ca4cc9f660fe7",
+        "name" : "testing the creation of a new letter",
+        "title" : "testing the creation of a new letter",
+        "time" : {
+          "start" : 1536241380489,
+          "stop" : 1536241423231,
+          "duration" : 42742
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  }, {
+    "title" : "login page functionality",
+    "statistic" : {
+      "total" : 12,
+      "passed" : 7,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 5
+    },
+    "stories" : [ {
+      "uid" : "c52f171ea79c6fee",
+      "title" : "valid login test",
+      "statistic" : {
+        "total" : 4,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 2
+      },
+      "testCases" : [ {
+        "uid" : "c221d8e466f45c24",
+        "name" : "valid login test",
+        "title" : "valid login test",
+        "time" : {
+          "start" : 1536241485569,
+          "stop" : 1536241507934,
+          "duration" : 22365
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5dcf45b52cf712d9",
+        "name" : "valid login test",
+        "title" : "valid login test",
+        "time" : {
+          "start" : 1536230298859,
+          "stop" : 1536230324385,
+          "duration" : 25526
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4710e93679102b8f",
+        "name" : "valid login test",
+        "title" : "valid login test",
+        "time" : {
+          "start" : 1536237700183,
+          "stop" : 1536237724667,
+          "duration" : 24484
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "e94e3fa10fa59174",
+        "name" : "valid login test",
+        "title" : "valid login test",
+        "time" : {
+          "start" : 1536230806591,
+          "stop" : 1536230829156,
+          "duration" : 22565
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "8b478142b2e23365",
+      "title" : "invalid login test",
+      "statistic" : {
+        "total" : 8,
+        "passed" : 5,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 3
+      },
+      "testCases" : [ {
+        "uid" : "f664b1280baee222",
+        "name" : "invalid login test",
+        "title" : "invalid login test",
+        "time" : {
+          "start" : 1536241507939,
+          "stop" : 1536241520216,
+          "duration" : 12277
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8b293c21f3c05f84",
+        "name" : "invalid login test",
+        "title" : "invalid login test",
+        "time" : {
+          "start" : 1536241520220,
+          "stop" : 1536241633622,
+          "duration" : 113402
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "cc36b25fa7aea75d",
+        "name" : "invalid login test",
+        "title" : "invalid login test",
+        "time" : {
+          "start" : 1536230324390,
+          "stop" : 1536230337975,
+          "duration" : 13585
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b58f91901c5736a1",
+        "name" : "invalid login test",
+        "title" : "invalid login test",
+        "time" : {
+          "start" : 1536230337978,
+          "stop" : 1536230348948,
+          "duration" : 10970
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "bc8ec057c0d76339",
+        "name" : "invalid login test",
+        "title" : "invalid login test",
+        "time" : {
+          "start" : 1536237724669,
+          "stop" : 1536237736928,
+          "duration" : 12259
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2afb7953aa00ea5f",
+        "name" : "invalid login test",
+        "title" : "invalid login test",
+        "time" : {
+          "start" : 1536237736932,
+          "stop" : 1536237848083,
+          "duration" : 111151
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "e249444a5578e3f5",
+        "name" : "invalid login test",
+        "title" : "invalid login test",
+        "time" : {
+          "start" : 1536230829158,
+          "stop" : 1536230840577,
+          "duration" : 11419
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c0c6ed2325a26c51",
+        "name" : "invalid login test",
+        "title" : "invalid login test",
+        "time" : {
+          "start" : 1536230840582,
+          "stop" : 1536230870487,
+          "duration" : 29905
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  }, {
+    "title" : "Move email from spam",
+    "statistic" : {
+      "total" : 4,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "stories" : [ {
+      "uid" : "81351a2087461f1c",
+      "title" : "Move email from spam",
+      "statistic" : {
+        "total" : 4,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 1
+      },
+      "testCases" : [ {
+        "uid" : "92cef17ab9e9dbc3",
+        "name" : "Move email from spam",
+        "title" : "Move email from spam",
+        "time" : {
+          "start" : 1536241634069,
+          "stop" : 1536241658203,
+          "duration" : 24134
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b56757e9764dcdc2",
+        "name" : "Move email from spam",
+        "title" : "Move email from spam",
+        "time" : {
+          "start" : 1536230870801,
+          "stop" : 1536230880847,
+          "duration" : 10046
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "52b75112f395b08d",
+        "name" : "Move email from spam",
+        "title" : "Move email from spam",
+        "time" : {
+          "start" : 1536230349079,
+          "stop" : 1536230373693,
+          "duration" : 24614
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8549e8427aeaa40d",
+        "name" : "Move email from spam",
+        "title" : "Move email from spam",
+        "time" : {
+          "start" : 1536237848356,
+          "stop" : 1536237872855,
+          "duration" : 24499
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  }, {
+    "title" : "Move email to spam",
+    "statistic" : {
+      "total" : 4,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "stories" : [ {
+      "uid" : "8728ba977ec50d12",
+      "title" : "Move email to spam",
+      "statistic" : {
+        "total" : 4,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 1
+      },
+      "testCases" : [ {
+        "uid" : "9051336783001bb",
+        "name" : "Move email to spam",
+        "title" : "Move email to spam",
+        "time" : {
+          "start" : 1536237872998,
+          "stop" : 1536237900921,
+          "duration" : 27923
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ad9454ff1aa54120",
+        "name" : "Move email to spam",
+        "title" : "Move email to spam",
+        "time" : {
+          "start" : 1536241658413,
+          "stop" : 1536241683421,
+          "duration" : 25008
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c353ba1469ef440a",
+        "name" : "Move email to spam",
+        "title" : "Move email to spam",
+        "time" : {
+          "start" : 1536230881031,
+          "stop" : 1536230893091,
+          "duration" : 12060
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "621a5f5ffeac1e66",
+        "name" : "Move email to spam",
+        "title" : "Move email to spam",
+        "time" : {
+          "start" : 1536230373802,
+          "stop" : 1536230399589,
+          "duration" : 25787
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  }, {
+    "title" : "testing the creation of a letter for the group of people",
+    "statistic" : {
+      "total" : 4,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 2
+    },
+    "stories" : [ {
+      "uid" : "b3cef101f0cc45e",
+      "title" : "a letter for the group of people",
+      "statistic" : {
+        "total" : 4,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 2
+      },
+      "testCases" : [ {
+        "uid" : "c29162f8a0c7ccd9",
+        "name" : "a letter for the group of people",
+        "title" : "a letter for the group of people",
+        "time" : {
+          "start" : 1536230893274,
+          "stop" : 1536230903318,
+          "duration" : 10044
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "3bd3ac17ad3c661f",
+        "name" : "a letter for the group of people",
+        "title" : "a letter for the group of people",
+        "time" : {
+          "start" : 1536230399772,
+          "stop" : 1536230430237,
+          "duration" : 30465
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "ced8796ea73bd079",
+        "name" : "a letter for the group of people",
+        "title" : "a letter for the group of people",
+        "time" : {
+          "start" : 1536241683667,
+          "stop" : 1536241723421,
+          "duration" : 39754
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "833ec49c839769d6",
+        "name" : "a letter for the group of people",
+        "title" : "a letter for the group of people",
+        "time" : {
+          "start" : 1536237901140,
+          "stop" : 1536237938428,
+          "duration" : 37288
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  }, {
+    "title" : "recycle bin functionality",
+    "statistic" : {
+      "total" : 4,
+      "passed" : 4,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "4c2117236d06786",
+      "title" : "recycle bin cleaning test",
+      "statistic" : {
+        "total" : 4,
+        "passed" : 4,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "ecab828cf9eda4d4",
+        "name" : "recycle bin cleaning test",
+        "title" : "recycle bin cleaning test",
+        "time" : {
+          "start" : 1536230156269,
+          "stop" : 1536230211443,
+          "duration" : 55174
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "257db77d64fd2c76",
+        "name" : "recycle bin cleaning test",
+        "title" : "recycle bin cleaning test",
+        "time" : {
+          "start" : 1536230674260,
+          "stop" : 1536230708884,
+          "duration" : 34624
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "74b7e5c0b7ddc236",
+        "name" : "recycle bin cleaning test",
+        "title" : "recycle bin cleaning test",
+        "time" : {
+          "start" : 1536241307274,
+          "stop" : 1536241380185,
+          "duration" : 72911
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5161861269991e3c",
+        "name" : "recycle bin cleaning test",
+        "title" : "recycle bin cleaning test",
+        "time" : {
+          "start" : 1536237570698,
+          "stop" : 1536237608051,
+          "duration" : 37353
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  }, {
+    "title" : "testing the removal of a letter",
+    "statistic" : {
+      "total" : 4,
+      "passed" : 4,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "d5d83cd3763995aa",
+      "title" : "mail deleting test",
+      "statistic" : {
+        "total" : 4,
+        "passed" : 4,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "c417d4a775fc124",
+        "name" : "mail deleting test",
+        "title" : "mail deleting test",
+        "time" : {
+          "start" : 1536230247434,
+          "stop" : 1536230272735,
+          "duration" : 25301
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "98c7b97c365f5c0",
+        "name" : "mail deleting test",
+        "title" : "mail deleting test",
+        "time" : {
+          "start" : 1536237642751,
+          "stop" : 1536237670762,
+          "duration" : 28011
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "dacd979d2d4e338",
+        "name" : "mail deleting test",
+        "title" : "mail deleting test",
+        "time" : {
+          "start" : 1536241423421,
+          "stop" : 1536241456146,
+          "duration" : 32725
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "dd7382a863783de3",
+        "name" : "mail deleting test",
+        "title" : "mail deleting test",
+        "time" : {
+          "start" : 1536230748382,
+          "stop" : 1536230775519,
+          "duration" : 27137
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  }, {
+    "title" : "Uncheck flag from the email",
+    "statistic" : {
+      "total" : 4,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 4
+    },
+    "stories" : [ {
+      "uid" : "f1b2e88c103e0657",
+      "title" : "Uncheck flag from the email",
+      "statistic" : {
+        "total" : 4,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 4
+      },
+      "testCases" : [ {
+        "uid" : "86562a20b9c78dc9",
+        "name" : "Uncheck flag from the email",
+        "title" : "Uncheck flag from the email",
+        "time" : {
+          "start" : 1536241723586,
+          "stop" : 1536241752068,
+          "duration" : 28482
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "8a4f4cf12aab57e3",
+        "name" : "Uncheck flag from the email",
+        "title" : "Uncheck flag from the email",
+        "time" : {
+          "start" : 1536230430359,
+          "stop" : 1536230560337,
+          "duration" : 129978
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "b823895a0b43a834",
+        "name" : "Uncheck flag from the email",
+        "title" : "Uncheck flag from the email",
+        "time" : {
+          "start" : 1536230903599,
+          "stop" : 1536230913632,
+          "duration" : 10033
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "5323a65533ada81",
+        "name" : "Uncheck flag from the email",
+        "title" : "Uncheck flag from the email",
+        "time" : {
+          "start" : 1536237938588,
+          "stop" : 1536237966725,
+          "duration" : 28137
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  }, {
+    "title" : "Emails marked with flag",
+    "statistic" : {
+      "total" : 4,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "stories" : [ {
+      "uid" : "d950c6bee071592a",
+      "title" : "Emails marked with flag",
+      "statistic" : {
+        "total" : 4,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 1
+      },
+      "testCases" : [ {
+        "uid" : "2d879e223db7721e",
+        "name" : "Emails marked with flag",
+        "title" : "Emails marked with flag",
+        "time" : {
+          "start" : 1536230775665,
+          "stop" : 1536230806403,
+          "duration" : 30738
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5682f5247c4fff6",
+        "name" : "Emails marked with flag",
+        "title" : "Emails marked with flag",
+        "time" : {
+          "start" : 1536230272939,
+          "stop" : 1536230298597,
+          "duration" : 25658
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "742842c8127ad27a",
+        "name" : "Emails marked with flag",
+        "title" : "Emails marked with flag",
+        "time" : {
+          "start" : 1536241456296,
+          "stop" : 1536241485441,
+          "duration" : 29145
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "396cd12f80c7e9bb",
+        "name" : "Emails marked with flag",
+        "title" : "Emails marked with flag",
+        "time" : {
+          "start" : 1536237670890,
+          "stop" : 1536237700013,
+          "duration" : 29123
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

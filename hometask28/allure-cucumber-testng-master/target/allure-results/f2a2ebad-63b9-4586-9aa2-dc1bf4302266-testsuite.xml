@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1536241456293" stop="1536241485443" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Emails marked with flag</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1536241456296" stop="1536241485441" status="passed">
+            <name>Emails marked with flag</name>
+            <title>Emails marked with flag</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1536241462169" stop="1536241465177" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536241465178" stop="1536241467200" status="passed">
+                    <name>When I login as correct user</name>
+                    <title>When I login as correct user</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="56c2b3be-853f-4993-b8e8-b257d2df5691-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536241467202" stop="1536241481640" status="passed">
+                    <name>And I choose the three emails</name>
+                    <title>And I choose the three emails</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="a4e10e6f-6785-4d9c-ad39-a7c8b2b3283b-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536241481641" stop="1536241482115" status="passed">
+                    <name>And I click on the button more actions</name>
+                    <title>And I click on the button more actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1536241482115" stop="1536241483193" status="passed">
+                    <name>And I click the flag link</name>
+                    <title>And I click the flag link</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="c7c74a42-f8c6-489a-93e9-47f56d334766-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1536241483194" stop="1536241483681" status="passed">
+                    <name>Then I see message Your emails has been marked with flag</name>
+                    <title>Then I see message Your emails has been marked with flag</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Attachment Screenshot" source="6561f061-b941-41b6-ae8f-e058387a3c3b-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Emails marked with flag"/>
+                <label name="feature" value="Emails marked with flag"/>
+                <label name="host" value="MASHEEN-8QD614O"/>
+                <label name="thread" value="2032@MASHEEN-8QD614O.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Emails marked with flag"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

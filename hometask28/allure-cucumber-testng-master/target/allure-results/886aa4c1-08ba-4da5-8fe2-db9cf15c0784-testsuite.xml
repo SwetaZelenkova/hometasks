@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1536230430358" stop="1536230560338" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Uncheck flag from the email</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1536230430359" stop="1536230560337" status="broken">
+            <name>Uncheck flag from the email</name>
+            <title>Uncheck flag from the email</title>
+            <description type="text"></description>
+            <failure>
+                <message>TimeoutException: Timed out after 100 seconds waiting for text ('Нет писем, попадающих под условия фильтра.') to be present in element [[ChromeDriver: chrome on XP (dc0cc2ccb659cc716c1ade75db2fb434)] -&gt; xpath: //*[@id='Notify']/div[1]/div/span]
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MASHEEN-8QD614O', ip: '192.168.1.205', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55038}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\836D~1\AppData\Local\Temp\scoped_dir3524_17777}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dc0cc2ccb659cc716c1ade75db2fb434</message>
+                <stack-trace>org.openqa.selenium.TimeoutException: Timed out after 100 seconds waiting for text ('Нет писем, попадающих под условия фильтра.') to be present in element [[ChromeDriver: chrome on XP (dc0cc2ccb659cc716c1ade75db2fb434)] -&gt; xpath: //*[@id='Notify']/div[1]/div/span]
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MASHEEN-8QD614O', ip: '192.168.1.205', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55038}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\836D~1\AppData\Local\Temp\scoped_dir3524_17777}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dc0cc2ccb659cc716c1ade75db2fb434
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at edu.pht.cucumberjunit.pages.AbstractPage.waitUntilDisplayedTextInElement(AbstractPage.java:31)
+	at edu.pht.cucumberjunit.pages.EmailPage.isNotifyMessageUnmarkedWithFlagPresents(EmailPage.java:148)
+	at edu.pht.cucumberjunit.steps.EmailPageSteps.isNotifyMessageUnmarkedWithFlagPresents(EmailPageSteps.java:130)
+	at ✽.Then I see message no emails that fall under the filter conditions(UnmarkAllFlags.feature:29)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1536230435969" stop="1536230438771" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                </step>
+                <step start="1536230438771" stop="1536230441102" status="passed">
+                    <name>When I login as correct user</name>
+                    <title>When I login as correct user</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="7e591fe2-c494-4dcb-b1fb-84704b2d0e48-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1536230441103" stop="1536230453035" status="passed">
+                    <name>And I click on the button filter the emails marked with a check mark</name>
+                    <title>And I click on the button filter the emails marked with a check mark</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="2e15138c-839c-47bc-bc93-ea1bb723400f-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1536230453036" stop="1536230453773" status="passed">
+                    <name>And I choose all emails</name>
+                    <title>And I choose all emails</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="3bd9d0a5-201d-4f5e-b252-239a59f7f955-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1536230453773" stop="1536230454232" status="passed">
+                    <name>And I click on the button more actions</name>
+                    <title>And I click on the button more actions</title>
+                </step>
+                <step start="1536230454232" stop="1536230454948" status="passed">
+                    <name>And I click on the uncheck the flag link</name>
+                    <title>And I click on the uncheck the flag link</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="93e81c1e-c02f-4d20-b7ca-7e511a98359d-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1536230454949" stop="1536230555206" status="broken">
+                    <name>Then I see message no emails that fall under the filter conditions</name>
+                    <title>Then I see message no emails that fall under the filter conditions</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Attachment Screenshot" source="a6ac67cc-601b-44d5-89a5-1f79de916acc-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Uncheck flag from the email"/>
+                <label name="feature" value="Uncheck flag from the email"/>
+                <label name="host" value="MASHEEN-8QD614O"/>
+                <label name="thread" value="732@MASHEEN-8QD614O.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Uncheck flag from the email"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

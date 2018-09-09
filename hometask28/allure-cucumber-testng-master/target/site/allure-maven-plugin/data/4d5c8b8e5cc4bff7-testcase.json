@@ -1,0 +1,110 @@
+{
+  "uid" : "4d5c8b8e5cc4bff7",
+  "name" : "invalid login test",
+  "title" : "invalid login test",
+  "time" : {
+    "start" : 1536230840582,
+    "stop" : 1536230870487,
+    "duration" : 29905
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 3
+  },
+  "failure" : {
+    "message" : "WebDriverException: chrome not reachable\n  (Session info: chrome=68.0.3440.106)\n  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2.77 seconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'MASHEEN-8QD614O', ip: '192.168.1.205', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55965}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\\Users\\836D~1\\AppData\\Local\\Temp\\scoped_dir4624_8469}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]\nSession ID: f7d78eba4f5d94f06af237d4b097618f\n*** Element info: {Using=xpath, value=//*[@id='mailbox:error']}",
+    "stackTrace" : "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome=68.0.3440.106)\n  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2.77 seconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'MASHEEN-8QD614O', ip: '192.168.1.205', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55965}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\\Users\\836D~1\\AppData\\Local\\Temp\\scoped_dir4624_8469}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]\nSession ID: f7d78eba4f5d94f06af237d4b097618f\n*** Element info: {Using=xpath, value=//*[@id='mailbox:error']}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.getText(Unknown Source)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$12.apply(ExpectedConditions.java:341)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$12.apply(ExpectedConditions.java:337)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)\n\tat edu.pht.cucumberjunit.pages.AbstractPage.waitUntilDisplayedTextInElement(AbstractPage.java:31)\n\tat edu.pht.cucumberjunit.pages.LoginPage.isMessageErrorPresents(LoginPage.java:56)\n\tat edu.pht.cucumberjunit.steps.LoginSteps.seeErrorMessage(LoginSteps.java:61)\n\tat ✽.Then I see error message(Login.feature:31)\n"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "suite" : {
+    "uid" : "a6d2ff32b9ef22c0",
+    "name" : "login page functionality",
+    "title" : "Login page functionality"
+  },
+  "steps" : [ {
+    "name" : "Given I am on main application page",
+    "title" : "Given I am on main application page",
+    "time" : {
+      "start" : 1536230843163,
+      "stop" : 1536230846141,
+      "duration" : 2978
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I login as user with \"zelenkova_sveta\" and \"@bk.ru\" and \"Benz2503\"",
+    "title" : "When I login as user with \"zelenkova_sveta\" and \"@bk.ru\" and \"Benz2503\"",
+    "time" : {
+      "start" : 1536230846141,
+      "stop" : 1536230848122,
+      "duration" : 1981
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "61b2e3bf-eab2-459e-832c-f5f961e503bb-attachment.png",
+      "type" : "image/png",
+      "size" : 274304,
+      "uid" : "f612581eab16fc64"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I see error message",
+    "title" : "Then I see error message",
+    "time" : {
+      "start" : 1536230848123,
+      "stop" : 1536230866470,
+      "duration" : 18347
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "BROKEN",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "MASHEEN-8QD614O"
+  }, {
+    "name" : "feature",
+    "value" : "login page functionality"
+  }, {
+    "name" : "suite-name",
+    "value" : "login page functionality"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "invalid login test"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "3824@MASHEEN-8QD614O.main(1)"
+  } ],
+  "parameters" : [ ]
+}

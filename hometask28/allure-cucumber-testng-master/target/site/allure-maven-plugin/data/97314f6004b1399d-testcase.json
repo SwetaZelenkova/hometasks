@@ -1,0 +1,107 @@
+{
+  "uid" : "97314f6004b1399d",
+  "name" : "Icons are present and displayed on the page",
+  "title" : "Icons are present and displayed on the page",
+  "time" : {
+    "start" : 1536230099578,
+    "stop" : 1536230155301,
+    "duration" : 55723
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "a9892b520228af2e",
+    "name" : "Icons are present and displayed on the page",
+    "title" : "Icons are present and displayed on the page"
+  },
+  "steps" : [ {
+    "name" : "Given I am on main application page",
+    "title" : "Given I am on main application page",
+    "time" : {
+      "start" : 1536230127823,
+      "stop" : 1536230141630,
+      "duration" : 13807
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When The icons are present in the DOM and are displayed on the page",
+    "title" : "When The icons are present in the DOM and are displayed on the page",
+    "time" : {
+      "start" : 1536230141631,
+      "stop" : 1536230146059,
+      "duration" : 4428
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I see all icons",
+    "title" : "Then I see all icons",
+    "time" : {
+      "start" : 1536230146059,
+      "stop" : 1536230147119,
+      "duration" : 1060
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Attachment Screenshot",
+    "source" : "49524a96-b3e8-4e4d-afe0-e24c872f62c4-attachment.png",
+    "type" : "image/png",
+    "size" : 372792,
+    "uid" : "cab09d888d07a450"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Icons are present and displayed on the page"
+  }, {
+    "name" : "host",
+    "value" : "MASHEEN-8QD614O"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "Icons are present and displayed on the page"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "732@MASHEEN-8QD614O.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Icons are present and displayed on the page"
+  } ],
+  "parameters" : [ ]
+}

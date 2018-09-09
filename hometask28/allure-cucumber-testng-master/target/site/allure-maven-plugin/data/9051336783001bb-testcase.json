@@ -1,0 +1,170 @@
+{
+  "uid" : "9051336783001bb",
+  "name" : "Move email to spam",
+  "title" : "Move email to spam",
+  "time" : {
+    "start" : 1536237872998,
+    "stop" : 1536237900921,
+    "duration" : 27923
+  },
+  "summary" : {
+    "attachments" : 4,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "eef4e676d1572ba5",
+    "name" : "Move email to spam",
+    "title" : "Move email to spam"
+  },
+  "steps" : [ {
+    "name" : "Given I am on main application page",
+    "title" : "Given I am on main application page",
+    "time" : {
+      "start" : 1536237878528,
+      "stop" : 1536237880818,
+      "duration" : 2290
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I login as correct user",
+    "title" : "When I login as correct user",
+    "time" : {
+      "start" : 1536237880819,
+      "stop" : 1536237883559,
+      "duration" : 2740
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "c12388c8-6c4b-487e-a91b-6124afbbe11d-attachment.png",
+      "type" : "image/png",
+      "size" : 381743,
+      "uid" : "605ad8902092fe2f"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I choose the first letter",
+    "title" : "And I choose the first letter",
+    "time" : {
+      "start" : 1536237883560,
+      "stop" : 1536237897230,
+      "duration" : 13670
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "c47624d1-9a89-460e-9a38-d6b8a91956c0-attachment.png",
+      "type" : "image/png",
+      "size" : 157312,
+      "uid" : "f92e06a0a603f306"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click on the button move to",
+    "title" : "And I click on the button move to",
+    "time" : {
+      "start" : 1536237897231,
+      "stop" : 1536237897709,
+      "duration" : 478
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click on the link spam",
+    "title" : "And I click on the link spam",
+    "time" : {
+      "start" : 1536237897709,
+      "stop" : 1536237898935,
+      "duration" : 1226
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "a84d8ba4-a4f8-42e2-8d34-d36ba080084b-attachment.png",
+      "type" : "image/png",
+      "size" : 158223,
+      "uid" : "f40c258abb1ce2fc"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I see message Your email has been moved to spam",
+    "title" : "Then I see message Your email has been moved to spam",
+    "time" : {
+      "start" : 1536237898936,
+      "stop" : 1536237899045,
+      "duration" : 109
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Attachment Screenshot",
+    "source" : "56e6e45a-e1d0-4811-9b15-dc0d7bd9d8b4-attachment.png",
+    "type" : "image/png",
+    "size" : 162782,
+    "uid" : "ae768341edf6a8aa"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Move email to spam"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "4020@MASHEEN-8QD614O.main(1)"
+  }, {
+    "name" : "host",
+    "value" : "MASHEEN-8QD614O"
+  }, {
+    "name" : "suite-name",
+    "value" : "Move email to spam"
+  }, {
+    "name" : "story",
+    "value" : "Move email to spam"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

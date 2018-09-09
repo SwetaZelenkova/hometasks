@@ -1,0 +1,206 @@
+{
+  "uid" : "3bd3ac17ad3c661f",
+  "name" : "a letter for the group of people",
+  "title" : "a letter for the group of people",
+  "time" : {
+    "start" : 1536230399772,
+    "stop" : 1536230430237,
+    "duration" : 30465
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 9
+  },
+  "failure" : {
+    "message" : "InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated\n  (Session info: chrome=68.0.3440.106)\n  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 118 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'MASHEEN-8QD614O', ip: '192.168.1.205', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54916}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\\Users\\836D~1\\AppData\\Local\\Temp\\scoped_dir5088_31204}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 33c7d59fbc1626468c5233ad507c9fd7",
+    "stackTrace" : "org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated\n  (Session info: chrome=68.0.3440.106)\n  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 118 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'MASHEEN-8QD614O', ip: '192.168.1.205', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54916}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\\Users\\836D~1\\AppData\\Local\\Temp\\scoped_dir5088_31204}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 33c7d59fbc1626468c5233ad507c9fd7\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)\n\tat org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:140)\n\tat sun.reflect.GeneratedMethodAccessor26.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy18.clear(Unknown Source)\n\tat edu.pht.cucumberjunit.pages.CreateEmailPage.enterRecipientsEmailAddress(CreateEmailPage.java:41)\n\tat edu.pht.cucumberjunit.steps.CreateEmailSteps.enterEmailAddress(CreateEmailSteps.java:30)\n\tat ✽.And I enter the recipients email address(SendEmailToGroupRecivers.feature:26)\n"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "suite" : {
+    "uid" : "fae5fd856a021c19",
+    "name" : "testing the creation of a letter for the group of people",
+    "title" : "Testing the creation of a letter for the group of people"
+  },
+  "steps" : [ {
+    "name" : "Given I am on main application page",
+    "title" : "Given I am on main application page",
+    "time" : {
+      "start" : 1536230405361,
+      "stop" : 1536230407861,
+      "duration" : 2500
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I login as correct user",
+    "title" : "When I login as correct user",
+    "time" : {
+      "start" : 1536230407862,
+      "stop" : 1536230410445,
+      "duration" : 2583
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "918c90ba-b9ca-48e6-b66a-8cc577e82b80-attachment.png",
+      "type" : "image/png",
+      "size" : 345554,
+      "uid" : "4a388805f420b2ec"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click on the button create mail",
+    "title" : "And I click on the button create mail",
+    "time" : {
+      "start" : 1536230410445,
+      "stop" : 1536230424935,
+      "duration" : 14490
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I enter the recipients email address",
+    "title" : "And I enter the recipients email address",
+    "time" : {
+      "start" : 1536230424936,
+      "stop" : 1536230428504,
+      "duration" : 3568
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "BROKEN",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I enter more recipients email addresses \"lana_zelenkova@tut.by\", \"nika.benz@tut.by\"",
+    "title" : "And I enter more recipients email addresses \"lana_zelenkova@tut.by\", \"nika.benz@tut.by\"",
+    "time" : {
+      "start" : 1536230428504,
+      "stop" : 1536230428504,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I enter the subject of the email",
+    "title" : "And I enter the subject of the email",
+    "time" : {
+      "start" : 1536230428505,
+      "stop" : 1536230428505,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I enter the body of the email",
+    "title" : "And I enter the body of the email",
+    "time" : {
+      "start" : 1536230428505,
+      "stop" : 1536230428505,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click on the button send mail",
+    "title" : "And I click on the button send mail",
+    "time" : {
+      "start" : 1536230428505,
+      "stop" : 1536230428505,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I see message Your letter has been sent",
+    "title" : "Then I see message Your letter has been sent",
+    "time" : {
+      "start" : 1536230428505,
+      "stop" : 1536230428505,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Attachment Screenshot",
+    "source" : "f69729cd-e256-4a5c-9809-1354108ee3a3-attachment.png",
+    "type" : "image/png",
+    "size" : 152490,
+    "uid" : "43db0d524421eccd"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "testing the creation of a letter for the group of people"
+  }, {
+    "name" : "host",
+    "value" : "MASHEEN-8QD614O"
+  }, {
+    "name" : "story",
+    "value" : "a letter for the group of people"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "732@MASHEEN-8QD614O.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "testing the creation of a letter for the group of people"
+  } ],
+  "parameters" : [ ]
+}

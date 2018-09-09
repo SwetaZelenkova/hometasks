@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1536241723581" stop="1536241752068" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Uncheck flag from the email</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1536241723586" stop="1536241752068" status="broken">
+            <name>Uncheck flag from the email</name>
+            <title>Uncheck flag from the email</title>
+            <description type="text"></description>
+            <failure>
+                <message>WebDriverException: unknown error: Element &lt;div class="b-checkbox__box"&gt;&lt;/div&gt; is not clickable at point (293, 183). Other element would receive the click: &lt;div class="b-checkbox__checkmark"&gt;&lt;/div&gt;
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 115 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MASHEEN-8QD614O', ip: '192.168.1.205', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52123}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\836D~1\AppData\Local\Temp\scoped_dir3896_9475}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: efaf5014822ad3fbaa1eae2c88506dcb</message>
+                <stack-trace>org.openqa.selenium.WebDriverException: unknown error: Element &lt;div class="b-checkbox__box"&gt;&lt;/div&gt; is not clickable at point (293, 183). Other element would receive the click: &lt;div class="b-checkbox__checkmark"&gt;&lt;/div&gt;
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 115 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MASHEEN-8QD614O', ip: '192.168.1.205', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52123}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\836D~1\AppData\Local\Temp\scoped_dir3896_9475}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: efaf5014822ad3fbaa1eae2c88506dcb
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at edu.pht.cucumberjunit.pages.EmailPage.checkEmailsToUnmark(EmailPage.java:131)
+	at edu.pht.cucumberjunit.steps.EmailPageSteps.clickUnmarkFlagLink(EmailPageSteps.java:123)
+	at ✽.And I click on the uncheck the flag link(UnmarkAllFlags.feature:28)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1536241729552" stop="1536241732327" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                </step>
+                <step start="1536241732328" stop="1536241734216" status="passed">
+                    <name>When I login as correct user</name>
+                    <title>When I login as correct user</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="952944ca-5b61-4acf-8fea-8a04bf0f7364-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1536241734223" stop="1536241748723" status="passed">
+                    <name>And I click on the button filter the emails marked with a check mark</name>
+                    <title>And I click on the button filter the emails marked with a check mark</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="7dc967b0-6dac-4383-9967-1379c3005963-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1536241748724" stop="1536241749773" status="passed">
+                    <name>And I choose all emails</name>
+                    <title>And I choose all emails</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="73da5067-a232-45c1-9645-2ff3bb8edc63-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1536241749773" stop="1536241750201" status="passed">
+                    <name>And I click on the button more actions</name>
+                    <title>And I click on the button more actions</title>
+                </step>
+                <step start="1536241750202" stop="1536241750457" status="broken">
+                    <name>And I click on the uncheck the flag link</name>
+                    <title>And I click on the uncheck the flag link</title>
+                </step>
+                <step start="1536241750458" stop="1536241750464" status="canceled">
+                    <name>Then I see message no emails that fall under the filter conditions</name>
+                    <title>Then I see message no emails that fall under the filter conditions</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Attachment Screenshot" source="1ec75d8b-a041-4a79-b6af-606ae7d445c3-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Uncheck flag from the email"/>
+                <label name="feature" value="Uncheck flag from the email"/>
+                <label name="host" value="MASHEEN-8QD614O"/>
+                <label name="thread" value="2032@MASHEEN-8QD614O.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Uncheck flag from the email"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

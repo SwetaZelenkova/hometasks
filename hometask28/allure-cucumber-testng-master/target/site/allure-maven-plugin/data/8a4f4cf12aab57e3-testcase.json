@@ -1,0 +1,194 @@
+{
+  "uid" : "8a4f4cf12aab57e3",
+  "name" : "Uncheck flag from the email",
+  "title" : "Uncheck flag from the email",
+  "time" : {
+    "start" : 1536230430359,
+    "stop" : 1536230560337,
+    "duration" : 129978
+  },
+  "summary" : {
+    "attachments" : 5,
+    "steps" : 7
+  },
+  "failure" : {
+    "message" : "TimeoutException: Timed out after 100 seconds waiting for text ('Нет писем, попадающих под условия фильтра.') to be present in element [[ChromeDriver: chrome on XP (dc0cc2ccb659cc716c1ade75db2fb434)] -> xpath: //*[@id='Notify']/div[1]/div/span]\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'MASHEEN-8QD614O', ip: '192.168.1.205', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55038}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\\Users\\836D~1\\AppData\\Local\\Temp\\scoped_dir3524_17777}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]\nSession ID: dc0cc2ccb659cc716c1ade75db2fb434",
+    "stackTrace" : "org.openqa.selenium.TimeoutException: Timed out after 100 seconds waiting for text ('Нет писем, попадающих под условия фильтра.') to be present in element [[ChromeDriver: chrome on XP (dc0cc2ccb659cc716c1ade75db2fb434)] -> xpath: //*[@id='Notify']/div[1]/div/span]\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'MASHEEN-8QD614O', ip: '192.168.1.205', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55038}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\\Users\\836D~1\\AppData\\Local\\Temp\\scoped_dir3524_17777}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]\nSession ID: dc0cc2ccb659cc716c1ade75db2fb434\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\n\tat edu.pht.cucumberjunit.pages.AbstractPage.waitUntilDisplayedTextInElement(AbstractPage.java:31)\n\tat edu.pht.cucumberjunit.pages.EmailPage.isNotifyMessageUnmarkedWithFlagPresents(EmailPage.java:148)\n\tat edu.pht.cucumberjunit.steps.EmailPageSteps.isNotifyMessageUnmarkedWithFlagPresents(EmailPageSteps.java:130)\n\tat ✽.Then I see message no emails that fall under the filter conditions(UnmarkAllFlags.feature:29)\n"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "suite" : {
+    "uid" : "674daf1437cf197d",
+    "name" : "Uncheck flag from the email",
+    "title" : "Uncheck flag from the email"
+  },
+  "steps" : [ {
+    "name" : "Given I am on main application page",
+    "title" : "Given I am on main application page",
+    "time" : {
+      "start" : 1536230435969,
+      "stop" : 1536230438771,
+      "duration" : 2802
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I login as correct user",
+    "title" : "When I login as correct user",
+    "time" : {
+      "start" : 1536230438771,
+      "stop" : 1536230441102,
+      "duration" : 2331
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "7e591fe2-c494-4dcb-b1fb-84704b2d0e48-attachment.png",
+      "type" : "image/png",
+      "size" : 330290,
+      "uid" : "5ab98aa4c00cdcd7"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click on the button filter the emails marked with a check mark",
+    "title" : "And I click on the button filter the emails marked with a check mark",
+    "time" : {
+      "start" : 1536230441103,
+      "stop" : 1536230453035,
+      "duration" : 11932
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "2e15138c-839c-47bc-bc93-ea1bb723400f-attachment.png",
+      "type" : "image/png",
+      "size" : 82127,
+      "uid" : "90c8274f2a2dfb0f"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I choose all emails",
+    "title" : "And I choose all emails",
+    "time" : {
+      "start" : 1536230453036,
+      "stop" : 1536230453773,
+      "duration" : 737
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "3bd9d0a5-201d-4f5e-b252-239a59f7f955-attachment.png",
+      "type" : "image/png",
+      "size" : 84705,
+      "uid" : "34b76b210ea3993d"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click on the button more actions",
+    "title" : "And I click on the button more actions",
+    "time" : {
+      "start" : 1536230453773,
+      "stop" : 1536230454232,
+      "duration" : 459
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click on the uncheck the flag link",
+    "title" : "And I click on the uncheck the flag link",
+    "time" : {
+      "start" : 1536230454232,
+      "stop" : 1536230454948,
+      "duration" : 716
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "93e81c1e-c02f-4d20-b7ca-7e511a98359d-attachment.png",
+      "type" : "image/png",
+      "size" : 97423,
+      "uid" : "e0a920ba1138e4b6"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I see message no emails that fall under the filter conditions",
+    "title" : "Then I see message no emails that fall under the filter conditions",
+    "time" : {
+      "start" : 1536230454949,
+      "stop" : 1536230555206,
+      "duration" : 100257
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "BROKEN",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Attachment Screenshot",
+    "source" : "a6ac67cc-601b-44d5-89a5-1f79de916acc-attachment.png",
+    "type" : "image/png",
+    "size" : 97423,
+    "uid" : "f5e5de9f9256b000"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Uncheck flag from the email"
+  }, {
+    "name" : "story",
+    "value" : "Uncheck flag from the email"
+  }, {
+    "name" : "host",
+    "value" : "MASHEEN-8QD614O"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "732@MASHEEN-8QD614O.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Uncheck flag from the email"
+  } ],
+  "parameters" : [ ]
+}

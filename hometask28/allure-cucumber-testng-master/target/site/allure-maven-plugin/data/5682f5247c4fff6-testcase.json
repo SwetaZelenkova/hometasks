@@ -1,0 +1,161 @@
+{
+  "uid" : "5682f5247c4fff6",
+  "name" : "Emails marked with flag",
+  "title" : "Emails marked with flag",
+  "time" : {
+    "start" : 1536230272939,
+    "stop" : 1536230298597,
+    "duration" : 25658
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 6
+  },
+  "failure" : {
+    "message" : "IndexOutOfBoundsException: Index: 4, Size: 4",
+    "stackTrace" : "java.lang.IndexOutOfBoundsException: Index: 4, Size: 4\n\tat java.util.ArrayList.rangeCheck(ArrayList.java:657)\n\tat java.util.ArrayList.get(ArrayList.java:433)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)\n\tat com.sun.proxy.$Proxy19.get(Unknown Source)\n\tat edu.pht.cucumberjunit.pages.EmailPage.checkEmailsToMark(EmailPage.java:124)\n\tat edu.pht.cucumberjunit.steps.EmailPageSteps.checkEmailsToMark(EmailPageSteps.java:83)\n\tat ✽.And I choose the three emails(EmailsMarkedWithFlag.feature:25)\n"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "suite" : {
+    "uid" : "f90a493af66684b1",
+    "name" : "Emails marked with flag",
+    "title" : "Emails marked with flag"
+  },
+  "steps" : [ {
+    "name" : "Given I am on main application page",
+    "title" : "Given I am on main application page",
+    "time" : {
+      "start" : 1536230277765,
+      "stop" : 1536230281259,
+      "duration" : 3494
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I login as correct user",
+    "title" : "When I login as correct user",
+    "time" : {
+      "start" : 1536230281259,
+      "stop" : 1536230284667,
+      "duration" : 3408
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "839d30b8-30fe-46b7-ae86-102b7ccdd4f4-attachment.png",
+      "type" : "image/png",
+      "size" : 325874,
+      "uid" : "30bfd5953d720897"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I choose the three emails",
+    "title" : "And I choose the three emails",
+    "time" : {
+      "start" : 1536230284668,
+      "stop" : 1536230296861,
+      "duration" : 12193
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "BROKEN",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click on the button more actions",
+    "title" : "And I click on the button more actions",
+    "time" : {
+      "start" : 1536230296861,
+      "stop" : 1536230296870,
+      "duration" : 9
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click the flag link",
+    "title" : "And I click the flag link",
+    "time" : {
+      "start" : 1536230296870,
+      "stop" : 1536230296870,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I see message Your emails has been marked with flag",
+    "title" : "Then I see message Your emails has been marked with flag",
+    "time" : {
+      "start" : 1536230296870,
+      "stop" : 1536230296870,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Attachment Screenshot",
+    "source" : "87a61f61-56a6-4439-b784-67bb2702c4e4-attachment.png",
+    "type" : "image/png",
+    "size" : 80081,
+    "uid" : "2c0e2a6712a53051"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Emails marked with flag"
+  }, {
+    "name" : "story",
+    "value" : "Emails marked with flag"
+  }, {
+    "name" : "host",
+    "value" : "MASHEEN-8QD614O"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "feature",
+    "value" : "Emails marked with flag"
+  }, {
+    "name" : "thread",
+    "value" : "732@MASHEEN-8QD614O.main(1)"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,164 @@
+{
+  "uid" : "9dbf43d554c41e21",
+  "name" : "recycle bin cleaning test",
+  "title" : "recycle bin cleaning test",
+  "time" : {
+    "start" : 1536230156269,
+    "stop" : 1536230211443,
+    "duration" : 55174
+  },
+  "summary" : {
+    "attachments" : 3,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "6c33e92d40778f2",
+    "name" : "recycle bin functionality",
+    "title" : "Recycle bin functionality"
+  },
+  "steps" : [ {
+    "name" : "Given I am on main application page",
+    "title" : "Given I am on main application page",
+    "time" : {
+      "start" : 1536230163873,
+      "stop" : 1536230168868,
+      "duration" : 4995
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I login as correct user",
+    "title" : "When I login as correct user",
+    "time" : {
+      "start" : 1536230168872,
+      "stop" : 1536230173188,
+      "duration" : 4316
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "0ecbd3a5-20c8-4412-9a4a-d9a885be7c7b-attachment.png",
+      "type" : "image/png",
+      "size" : 320421,
+      "uid" : "505a54ee8d43cb25"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click on the link recycle bin",
+    "title" : "And I click on the link recycle bin",
+    "time" : {
+      "start" : 1536230173188,
+      "stop" : 1536230197048,
+      "duration" : 23860
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click on the button clean all",
+    "title" : "And I click on the button clean all",
+    "time" : {
+      "start" : 1536230197049,
+      "stop" : 1536230206302,
+      "duration" : 9253
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "96fb1653-303f-402b-a604-0c593b727df2-attachment.png",
+      "type" : "image/png",
+      "size" : 93152,
+      "uid" : "8bfe14fcb659f2f6"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click on the button for confirm",
+    "title" : "And I click on the button for confirm",
+    "time" : {
+      "start" : 1536230206302,
+      "stop" : 1536230206792,
+      "duration" : 490
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I see message your recycle bin is empty",
+    "title" : "Then I see message your recycle bin is empty",
+    "time" : {
+      "start" : 1536230206796,
+      "stop" : 1536230208410,
+      "duration" : 1614
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Attachment Screenshot",
+    "source" : "d3bf8596-ff5e-4716-aabc-171ab65a1f51-attachment.png",
+    "type" : "image/png",
+    "size" : 122947,
+    "uid" : "aa6131f78b80c47"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "recycle bin functionality"
+  }, {
+    "name" : "suite-name",
+    "value" : "recycle bin functionality"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "MASHEEN-8QD614O"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "recycle bin cleaning test"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "732@MASHEEN-8QD614O.main(1)"
+  } ],
+  "parameters" : [ ]
+}

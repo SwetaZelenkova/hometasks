@@ -1,0 +1,188 @@
+{
+  "uid" : "86562a20b9c78dc9",
+  "name" : "Uncheck flag from the email",
+  "title" : "Uncheck flag from the email",
+  "time" : {
+    "start" : 1536241723586,
+    "stop" : 1536241752068,
+    "duration" : 28482
+  },
+  "summary" : {
+    "attachments" : 4,
+    "steps" : 7
+  },
+  "failure" : {
+    "message" : "WebDriverException: unknown error: Element <div class=\"b-checkbox__box\"></div> is not clickable at point (293, 183). Other element would receive the click: <div class=\"b-checkbox__checkmark\"></div>\n  (Session info: chrome=68.0.3440.106)\n  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 115 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'MASHEEN-8QD614O', ip: '192.168.1.205', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52123}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\\Users\\836D~1\\AppData\\Local\\Temp\\scoped_dir3896_9475}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]\nSession ID: efaf5014822ad3fbaa1eae2c88506dcb",
+    "stackTrace" : "org.openqa.selenium.WebDriverException: unknown error: Element <div class=\"b-checkbox__box\"></div> is not clickable at point (293, 183). Other element would receive the click: <div class=\"b-checkbox__checkmark\"></div>\n  (Session info: chrome=68.0.3440.106)\n  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 115 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'MASHEEN-8QD614O', ip: '192.168.1.205', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52123}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\\Users\\836D~1\\AppData\\Local\\Temp\\scoped_dir3896_9475}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]\nSession ID: efaf5014822ad3fbaa1eae2c88506dcb\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\n\tat edu.pht.cucumberjunit.pages.EmailPage.checkEmailsToUnmark(EmailPage.java:131)\n\tat edu.pht.cucumberjunit.steps.EmailPageSteps.clickUnmarkFlagLink(EmailPageSteps.java:123)\n\tat ✽.And I click on the uncheck the flag link(UnmarkAllFlags.feature:28)\n"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "suite" : {
+    "uid" : "674daf1437cf197d",
+    "name" : "Uncheck flag from the email",
+    "title" : "Uncheck flag from the email"
+  },
+  "steps" : [ {
+    "name" : "Given I am on main application page",
+    "title" : "Given I am on main application page",
+    "time" : {
+      "start" : 1536241729552,
+      "stop" : 1536241732327,
+      "duration" : 2775
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I login as correct user",
+    "title" : "When I login as correct user",
+    "time" : {
+      "start" : 1536241732328,
+      "stop" : 1536241734216,
+      "duration" : 1888
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "952944ca-5b61-4acf-8fea-8a04bf0f7364-attachment.png",
+      "type" : "image/png",
+      "size" : 290296,
+      "uid" : "cb4e7bfa50040aa3"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click on the button filter the emails marked with a check mark",
+    "title" : "And I click on the button filter the emails marked with a check mark",
+    "time" : {
+      "start" : 1536241734223,
+      "stop" : 1536241748723,
+      "duration" : 14500
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "7dc967b0-6dac-4383-9967-1379c3005963-attachment.png",
+      "type" : "image/png",
+      "size" : 50656,
+      "uid" : "a6ecd002050b6861"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I choose all emails",
+    "title" : "And I choose all emails",
+    "time" : {
+      "start" : 1536241748724,
+      "stop" : 1536241749773,
+      "duration" : 1049
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "73da5067-a232-45c1-9645-2ff3bb8edc63-attachment.png",
+      "type" : "image/png",
+      "size" : 89310,
+      "uid" : "cd7e4bc1acf28148"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click on the button more actions",
+    "title" : "And I click on the button more actions",
+    "time" : {
+      "start" : 1536241749773,
+      "stop" : 1536241750201,
+      "duration" : 428
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click on the uncheck the flag link",
+    "title" : "And I click on the uncheck the flag link",
+    "time" : {
+      "start" : 1536241750202,
+      "stop" : 1536241750457,
+      "duration" : 255
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "BROKEN",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I see message no emails that fall under the filter conditions",
+    "title" : "Then I see message no emails that fall under the filter conditions",
+    "time" : {
+      "start" : 1536241750458,
+      "stop" : 1536241750464,
+      "duration" : 6
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Attachment Screenshot",
+    "source" : "1ec75d8b-a041-4a79-b6af-606ae7d445c3-attachment.png",
+    "type" : "image/png",
+    "size" : 100892,
+    "uid" : "9329dd1f6ad4c8d7"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "2032@MASHEEN-8QD614O.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Uncheck flag from the email"
+  }, {
+    "name" : "story",
+    "value" : "Uncheck flag from the email"
+  }, {
+    "name" : "host",
+    "value" : "MASHEEN-8QD614O"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "feature",
+    "value" : "Uncheck flag from the email"
+  } ],
+  "parameters" : [ ]
+}
