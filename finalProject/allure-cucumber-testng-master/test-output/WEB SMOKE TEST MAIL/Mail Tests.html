@@ -1,0 +1,367 @@
+<html>
+<head>
+<title>TestNG:  Mail Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Mail Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 11 21:56:38 MSK 2018</td>
+</tr>
+<tr><td>Total time:</td><td>462 seconds (462546 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='edu.pht.cucumbertestng.steps.CucumberJvmTest.feature()'><b>feature</b><br>Test class: edu.pht.cucumbertestng.steps.CucumberJvmTest<br>Test method: Runs Cucumber Feature<br>Parameters: login page functionality</td>
+<td><div><pre>cucumber.runtime.CucumberException: org.openqa.selenium.TimeoutException: Timed out after 100 seconds waiting for text (&apos;Неверное имя или пароль&apos;) to be present in element Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;mailbox:error&apos;]&apos;
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;MASHEEN-8QD614O&apos;, ip: &apos;192.168.1.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52888}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\836D~1\AppData\Local\Temp\scoped_dir3644_4525}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 792117809c47ff27f6a54cf1e8009c40
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.TimeoutException: Timed out after 100 seconds waiting for text (&apos;Неверное имя или пароль&apos;) to be present in element Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;mailbox:error&apos;]&apos;
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;MASHEEN-8QD614O&apos;, ip: &apos;192.168.1.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52888}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\836D~1\AppData\Local\Temp\scoped_dir3644_4525}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 792117809c47ff27f6a54cf1e8009c40
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at edu.pht.cucumbertestng.pages.AbstractPage.waitUntilDisplayedTextInElement(AbstractPage.java:31)
+	at edu.pht.cucumbertestng.pages.LoginPage.isMessageErrorPresents(LoginPage.java:56)
+	at edu.pht.cucumbertestng.steps.LoginSteps.seeErrorMessage(LoginSteps.java:64)
+	at ✽.Then I see error message(Login.feature:31)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;mailbox:error&apos;]&quot;}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 49 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;MASHEEN-8QD614O&apos;, ip: &apos;192.168.1.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52888}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\836D~1\AppData\Local\Temp\scoped_dir3644_4525}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 792117809c47ff27f6a54cf1e8009c40
+*** Element info: {Using=xpath, value=//*[@id=&apos;mailbox:error&apos;]}
+	at sun.reflect.GeneratedConstructorAccessor34.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy36.getText(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions$12.apply(ExpectedConditions.java:341)
+	at org.openqa.selenium.support.ui.ExpectedConditions$12.apply(ExpectedConditions.java:337)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at edu.pht.cucumbertestng.pages.AbstractPage.waitUntilDisplayedTextInElement(AbstractPage.java:31)
+	at edu.pht.cucumbertestng.pages.LoginPage.isMessageErrorPresents(LoginPage.java:56)
+	at edu.pht.cucumbertestng.steps.LoginSteps.seeErrorMessage(LoginSteps.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div><a href='#' onClick='toggleBox("stack-trace500672010", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace500672010'><pre>cucumber.runtime.CucumberException: org.openqa.selenium.TimeoutException: Timed out after 100 seconds waiting for text (&apos;Неверное имя или пароль&apos;) to be present in element Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;mailbox:error&apos;]&apos;
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;MASHEEN-8QD614O&apos;, ip: &apos;192.168.1.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52888}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\836D~1\AppData\Local\Temp\scoped_dir3644_4525}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 792117809c47ff27f6a54cf1e8009c40
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.TimeoutException: Timed out after 100 seconds waiting for text (&apos;Неверное имя или пароль&apos;) to be present in element Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;mailbox:error&apos;]&apos;
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;MASHEEN-8QD614O&apos;, ip: &apos;192.168.1.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52888}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\836D~1\AppData\Local\Temp\scoped_dir3644_4525}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 792117809c47ff27f6a54cf1e8009c40
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at edu.pht.cucumbertestng.pages.AbstractPage.waitUntilDisplayedTextInElement(AbstractPage.java:31)
+	at edu.pht.cucumbertestng.pages.LoginPage.isMessageErrorPresents(LoginPage.java:56)
+	at edu.pht.cucumbertestng.steps.LoginSteps.seeErrorMessage(LoginSteps.java:64)
+	at ✽.Then I see error message(Login.feature:31)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;mailbox:error&apos;]&quot;}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 49 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;MASHEEN-8QD614O&apos;, ip: &apos;192.168.1.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52888}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\836D~1\AppData\Local\Temp\scoped_dir3644_4525}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 792117809c47ff27f6a54cf1e8009c40
+*** Element info: {Using=xpath, value=//*[@id=&apos;mailbox:error&apos;]}
+	at sun.reflect.GeneratedConstructorAccessor34.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy36.getText(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions$12.apply(ExpectedConditions.java:341)
+	at org.openqa.selenium.support.ui.ExpectedConditions$12.apply(ExpectedConditions.java:337)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at edu.pht.cucumbertestng.pages.AbstractPage.waitUntilDisplayedTextInElement(AbstractPage.java:31)
+	at edu.pht.cucumbertestng.pages.LoginPage.isMessageErrorPresents(LoginPage.java:56)
+	at edu.pht.cucumbertestng.steps.LoginSteps.seeErrorMessage(LoginSteps.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>142</td>
+<td>edu.pht.cucumbertestng.steps.CucumberJvmTest@20de05e5</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='edu.pht.cucumbertestng.restapisteps.CucumberJvmTest.feature()'><b>feature</b><br>Test class: edu.pht.cucumbertestng.restapisteps.CucumberJvmTest<br>Test method: Runs Cucumber Feature<br>Parameters: Save profile info vk.com</td>
+<td></td>
+<td>15</td>
+<td>edu.pht.cucumbertestng.restapisteps.CucumberJvmTest@36c0d0bd</td></tr>
+<tr>
+<td title='edu.pht.cucumbertestng.steps.CucumberJvmTest.feature()'><b>feature</b><br>Test class: edu.pht.cucumbertestng.steps.CucumberJvmTest<br>Test method: Runs Cucumber Feature<br>Parameters: Icons are present and displayed on the page</td>
+<td></td>
+<td>40</td>
+<td>edu.pht.cucumbertestng.steps.CucumberJvmTest@20de05e5</td></tr>
+<tr>
+<td title='edu.pht.cucumbertestng.steps.CucumberJvmTest.feature()'><b>feature</b><br>Test class: edu.pht.cucumbertestng.steps.CucumberJvmTest<br>Test method: Runs Cucumber Feature<br>Parameters: recycle bin functionality</td>
+<td></td>
+<td>37</td>
+<td>edu.pht.cucumbertestng.steps.CucumberJvmTest@20de05e5</td></tr>
+<tr>
+<td title='edu.pht.cucumbertestng.steps.CucumberJvmTest.feature()'><b>feature</b><br>Test class: edu.pht.cucumbertestng.steps.CucumberJvmTest<br>Test method: Runs Cucumber Feature<br>Parameters: testing the creation of a letter</td>
+<td></td>
+<td>32</td>
+<td>edu.pht.cucumbertestng.steps.CucumberJvmTest@20de05e5</td></tr>
+<tr>
+<td title='edu.pht.cucumbertestng.steps.CucumberJvmTest.feature()'><b>feature</b><br>Test class: edu.pht.cucumbertestng.steps.CucumberJvmTest<br>Test method: Runs Cucumber Feature<br>Parameters: Testing the creation of a letter for the group of people with data from DB</td>
+<td></td>
+<td>33</td>
+<td>edu.pht.cucumbertestng.steps.CucumberJvmTest@20de05e5</td></tr>
+<tr>
+<td title='edu.pht.cucumbertestng.steps.CucumberJvmTest.feature()'><b>feature</b><br>Test class: edu.pht.cucumbertestng.steps.CucumberJvmTest<br>Test method: Runs Cucumber Feature<br>Parameters: Testing the creation of a letter for the group of people with data from XML</td>
+<td></td>
+<td>33</td>
+<td>edu.pht.cucumbertestng.steps.CucumberJvmTest@20de05e5</td></tr>
+<tr>
+<td title='edu.pht.cucumbertestng.steps.CucumberJvmTest.feature()'><b>feature</b><br>Test class: edu.pht.cucumbertestng.steps.CucumberJvmTest<br>Test method: Runs Cucumber Feature<br>Parameters: testing the removal of a letter</td>
+<td></td>
+<td>25</td>
+<td>edu.pht.cucumbertestng.steps.CucumberJvmTest@20de05e5</td></tr>
+<tr>
+<td title='edu.pht.cucumbertestng.steps.CucumberJvmTest.feature()'><b>feature</b><br>Test class: edu.pht.cucumbertestng.steps.CucumberJvmTest<br>Test method: Runs Cucumber Feature<br>Parameters: Emails marked with flag</td>
+<td></td>
+<td>0</td>
+<td>edu.pht.cucumbertestng.steps.CucumberJvmTest@20de05e5</td></tr>
+<tr>
+<td title='edu.pht.cucumbertestng.steps.CucumberJvmTest.feature()'><b>feature</b><br>Test class: edu.pht.cucumbertestng.steps.CucumberJvmTest<br>Test method: Runs Cucumber Feature<br>Parameters: Move email from spam</td>
+<td></td>
+<td>26</td>
+<td>edu.pht.cucumbertestng.steps.CucumberJvmTest@20de05e5</td></tr>
+<tr>
+<td title='edu.pht.cucumbertestng.steps.CucumberJvmTest.feature()'><b>feature</b><br>Test class: edu.pht.cucumbertestng.steps.CucumberJvmTest<br>Test method: Runs Cucumber Feature<br>Parameters: Move email to spam</td>
+<td></td>
+<td>28</td>
+<td>edu.pht.cucumbertestng.steps.CucumberJvmTest@20de05e5</td></tr>
+<tr>
+<td title='edu.pht.cucumbertestng.steps.CucumberJvmTest.feature()'><b>feature</b><br>Test class: edu.pht.cucumbertestng.steps.CucumberJvmTest<br>Test method: Runs Cucumber Feature<br>Parameters: testing the creation of a letter for the group of people</td>
+<td></td>
+<td>40</td>
+<td>edu.pht.cucumbertestng.steps.CucumberJvmTest@20de05e5</td></tr>
+<tr>
+<td title='edu.pht.cucumbertestng.steps.CucumberJvmTest.feature()'><b>feature</b><br>Test class: edu.pht.cucumbertestng.steps.CucumberJvmTest<br>Test method: Runs Cucumber Feature<br>Parameters: Uncheck flag from the email</td>
+<td></td>
+<td>0</td>
+<td>edu.pht.cucumbertestng.steps.CucumberJvmTest@20de05e5</td></tr>
+</table><p>
+</body>
+</html>

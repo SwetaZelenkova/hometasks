@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emails>
+	<email id="1">
+		<messageToReceiver>lana_zelenkova@tut.by</messageToReceiver>
+		<copyTo>lana_zelenkova@tut.by</copyTo>
+		<subject>notification</subject>
+		<body>We must try and meet up soon.</body>
+	</email>
+	<email id="2">
+		<messageToReceiver>yuta_yuta@tut.by</messageToReceiver>
+		<copyTo>nika.benz@tut.by lana_zelenkova@tut.by</copyTo>
+		<subject>congratulation</subject>
+		<body>Best wishes,</body>
+	</email>
+	<email id="3">
+		<messageToReceiver>nika.benz@tut.by</messageToReceiver>
+		<copyTo>lana_zelenkova@tut.by yuta_yuta@tut.by</copyTo>
+		<subject>offer</subject>
+		<body>Anyway, I must go and get on with my work! </body>
+	</email>
+	<email id="4">
+		<messageToReceiver>yuta_yuta@tut.by</messageToReceiver>
+		<copyTo>nika.benz@tut.by lana_zelenkova@tut.by</copyTo>
+		<subject>invite to a meeting</subject>
+		<body>Thank you very much for your invitation. I'd love to come.
+		</body>
+	</email>
+</emails>
+
